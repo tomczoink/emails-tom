@@ -1,0 +1,13 @@
+{
+    "name": "ably-emails",
+    "version": "0.0.1",
+    "author": "Ably <support@ably.io>",
+    "description": "repository of our emails in MJML format",
+    "engines": {
+        "node": "6.9.1"
+    },
+    "dependencies": {
+        "mjml": "~4.2.1",
+        "nodemon": "~1.18.10"
+    }
+}

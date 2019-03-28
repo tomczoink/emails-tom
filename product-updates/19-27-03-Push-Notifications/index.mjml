@@ -1,0 +1,187 @@
+<mjml>
+  <mj-include path="../0-template/v1/styles/mj-head.mjml" />
+
+  <mj-body background-color="#f8f8f8">
+    
+    <!-- start hero section --> 
+      <mj-wrapper mj-class="content-wrapper hero-image" background-url="https://s3.amazonaws.com/files.ably.io/email/images/product-updates/19-03-26-push-notifications/assets/push-email-header.jpg">
+        <!-- mj-include path="./components/hero.mjml" -->
+          <mj-section>
+            <mj-column>
+              <mj-image mj-class="hero-logo"src="https://s3.amazonaws.com/files.ably.io/email/images/product-updates/19-03-26-push-notifications/assets/logo-grey-push.png"/>
+            </mj-column>
+          </mj-section>
+          <mj-section>
+            <mj-column>
+              <mj-spacer mj-class="spacer-lg" />
+            </mj-column>
+          </mj-section>
+          <mj-section css-class="plr-15" padding="0 30px">	
+            <mj-column css-class="plr-15" mj-class="hero-wrapper">
+              <mj-text css-class="fs-32" mj-class="hero-text">
+                Push notifications graduate from beta
+              </mj-text>
+            </mj-column>
+          </mj-section>
+        <!-- /mj-include path="./components/hero.mjml" -->
+      </mj-wrapper>
+    <!-- end hero section -->
+
+    <!-- content -->
+      <mj-wrapper mj-class="content-wrapper bottom-border">
+
+        <!-- start intro section -->
+          <!-- mj-include path="./components/intro.mjml" -->
+            <mj-section css-class="plr-15" padding="0 30px">
+              <mj-column>
+                <mj-text css-class="tplr-0 fs-18" mj-class="intro-title">
+                  Send native iOS and Android notifications with our simple unified API.
+                </mj-text>
+                <mj-button css-class="primary-btn" mj-class="primary-btn" href="https://blog.ably.io/native-push-notifications-now-available-at-ably-af84180282af" width="280px">
+                  Read the announcement
+                </mj-button>
+              </mj-column>
+            </mj-section>
+        <!-- end intro section -->
+
+        <!-- start divider -->
+          <!-- mj-include path="./components/divider.mjml" -->
+            <mj-section mj-class="divider-padding">
+              <mj-column>
+                <mj-divider mj-class="divider-body" />
+              </mj-column>
+            </mj-section>
+          <!-- /mj-include path="./components/divider.mjml" -->
+        <!-- end divider -->
+
+        <!-- start related resources B section part 1 -->
+          <!-- mj-include path="./components/related-resources-b-title.mjml" -->
+            <mj-section css-class="plr-15" padding="0 30px">
+              <mj-column>
+                <!-- image size: width="96" height="96" -->
+                <mj-image mj-class="resources-icon" />
+                <mj-text mj-class="title-h2" padding="0 0 17px">
+                  Dive right in with docs and tutorials
+                </mj-text>
+                <mj-text mj-class="primary-text">
+                  Send notifications over existing Ably channels to all subscribed devices or deliver direct to individual devices using the Ably REST Publishing API. Ably does all the heavy lifting in the background to deliver messages reliably and instantly via Apple Push Notification Service (APNs) and/or Firebase Cloud Messaging (FCM) - even when users are offline or aren't using your app.
+                </mj-text>
+                <mj-button css-class="primary-btn" mj-class="primary-btn" href="https://www.ably.io/documentation/general/push/publish" padding="0 0 43px">
+                  Read documentation
+                </mj-button>
+              </mj-column>
+            </mj-section>
+        <!-- end related resources B section part 1 -->
+          <!-- /mj-include path="./components/related-resources-b-title.mjml" -->
+          <!-- mj-include path="./components/related-resources-b-columns.mjml" -->
+        
+        <!-- start related resources B section part 2 -->
+            <mj-section css-class="plr-0" padding="0 15px">
+              <mj-column width="50%" padding="0 15px">
+                <mj-text mj-class="title-h3">
+                  Ably Admin API Docs
+                </mj-text>
+                <mj-text mj-class="primary-text" padding="0 0 7px">
+                  Ably's client library SDKs provide a unified Push Admin API to register devices, manage push device subscriptions, and deliver notifications.
+                </mj-text>
+                <mj-text mj-class="primary-link">
+                  <a style="color:#50B4F3; text-decoration:none;" href="https://www.ably.io/documentation/general/push/admin">Read admin API docs</a>
+                </mj-text>
+              </mj-column>
+              <mj-column width="50%" padding="0 15px">
+                <mj-text mj-class="title-h3">
+                  Push notification tutorials
+                </mj-text>
+                <mj-text mj-class="primary-text" padding="0 0 7px">
+                  Step-by-step instructions for registering iOS and Android devices with APNs and GCM to send and receive native push notifications.
+                </mj-text>
+                <mj-text mj-class="primary-link">
+                  <a style="color:#50B4F3; text-decoration:none;" href="https://www.ably.io/tutorials#tut-push-notifications">View tutorials</a>
+                </mj-text>
+              </mj-column>
+            </mj-section>
+          <!-- /mj-include path="./components/related-resources-b-columns.mjml" -->
+        <!-- end related resources B section part 2 -->
+
+      </mj-wrapper>
+    <!-- end content -->
+
+    <!-- start small spacer -->
+      <!-- mj-include path="./components/spacer-small.mjml" -->
+        <mj-section>
+          <mj-column>
+            <mj-spacer mj-class="spacer-sm" />
+          </mj-column>
+        </mj-section>
+      <!-- /mj-include path="./components/spacer-small.mjml" -->
+    <!-- end small spacer -->
+
+    <!-- start header section -->
+          <!-- mj-include path="./components/main.mjml" -->
+            <mj-section css-class="plr-15" padding="0 30px">
+              <mj-column>
+                <mj-text mj-class="title-h2" padding="0 0 28px">
+                  Push notification video overview
+                </mj-text>
+                <!-- image size: width="800" height="320" -->
+                <mj-image mj-class="main-img" src="https://s3.amazonaws.com/files.ably.io/email/images/product-updates/19-03-26-push-notifications/assets/push-video-thumbnail.jpg" href="https://youtu.be/kh7U_jOOunw"/>
+                <mj-button css-class="primary-btn" mj-class="primary-btn" href="https://youtu.be/kh7U_jOOunw">
+                  Watch the 5 minute overview
+                </mj-button>
+              </mj-column>
+            </mj-section>
+          <!-- /mj-include path="./components/main.mjml" -->
+        <!-- end header section -->
+    
+            <!-- start header section -->
+          <!-- mj-include path="./components/main.mjml" -->
+            <mj-section css-class="plr-15" padding="0 30px">
+              <mj-column>
+                <mj-text mj-class="title-h2" padding="0 0 28px">
+                  Help us get to #1 on Product Hunt
+                </mj-text>
+                <!-- image size: width="800" height="320" -->
+                <mj-image mj-class="main-img" src="https://s3.producthunt.com/static/kitty_265x244%402x.png"/>
+                <mj-text mj-class="primary-text">
+                  We're on Product Hunt today! We think our unified push API can help all sorts of developers save a bunch of time and build better apps. With your upvote we've got a real chance of reaching the top spot. It only takes a minute and it'd help us out a lot.
+                </mj-text>
+                <mj-button css-class="primary-btn" mj-class="primary-btn" href="https://www.producthunt.com/posts/ably-push-notifications">
+                  Help us reach #1 by upvoting
+                </mj-button>
+              </mj-column>
+            </mj-section>
+          <!-- /mj-include path="./components/main.mjml" -->
+        <!-- end header section -->
+    
+    <!-- start coming soon section -->
+      <!-- mj-include path="./components/coming.mjml" -->
+        <mj-section css-class="plr-15" mj-class="coming-wrapper">
+          <mj-column>
+            <mj-text mj-class="primary-text coming-title">
+              Coming soon: Idempotent Publishing
+            </mj-text>
+            <mj-text mj-class="primary-text" padding="0">
+              Idempotency means data publishers don’t need to worry about subscribers receiving duplicate messages - even if failures cause a publish to be reattempted.
+            </mj-text>
+          </mj-column>
+        </mj-section>
+      <!-- /mj-include path="./components/coming.mjml" -->
+    <!-- end coming soon section -->
+
+    <!-- start large spacer -->
+      <!-- mj-include path="./components/spacer-large.mjml" -->
+        <mj-section>
+          <mj-column>
+            <mj-spacer mj-class="spacer-md" />
+          </mj-column>
+        </mj-section>
+      <!-- /mj-include path="./components/spacer-large.mjml" -->
+    <!-- end large spacer -->
+
+    <!-- start footer -->
+      <mj-wrapper full-width="full-width" background-color="#f1f1f1" padding="60px 0">
+        <mj-include path="../0-template/v1/components/footer.mjml" />
+      </mj-wrapper>
+    <!-- end footer -->
+  </mj-body>
+</mjml>

@@ -1,0 +1,7 @@
+<mj-section css-class="plr-15" padding="0 30px">
+  <mj-column>
+    <mj-text mj-class="title-h2" padding="0 0 42px">
+      Benefits
+    </mj-text>
+  </mj-column>
+</mj-section>

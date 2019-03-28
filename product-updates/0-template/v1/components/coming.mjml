@@ -1,0 +1,10 @@
+<mj-section css-class="plr-15" mj-class="coming-wrapper">
+  <mj-column>
+    <mj-text mj-class="primary-text coming-title">
+      Coming soon!
+    </mj-text>
+    <mj-text mj-class="primary-text" padding="0">
+      Pellentesque quis orci rutrum, vestibulum enim et, pretium quam. Nullam neque arcu, mollis quis tortor sed, consequat varius dolor
+    </mj-text>
+  </mj-column>
+</mj-section>

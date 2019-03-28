@@ -1,0 +1,24 @@
+#!/bin/bash
+
+echo "Starting continuous sync of files to S3..."
+
+DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" >/dev/null && pwd )"
+NODE_BIN=$(npm bin)
+NODEMON_BIN="$NODE_BIN/nodemon"
+
+RED='\033[0;31m'
+NO_COLOR='\033[0m'
+
+if [ -z "$NODE_BIN" ]; then
+  echo -e "\n${RED}Error: npm does not appear to be installed. Install npm and run npm install${NO_COLOR}"
+  exit 1
+fi
+
+if [ ! -e "$NODEMON_BIN" ]; then
+  echo -e "\n${RED}Error: nodemon is not install. run npm install${NO_COLOR}"
+  exit 1
+fi
+
+export SYNCING=true
+
+exec "$NODE_BIN/nodemon" --exec "$DIR/sync" --ext '*'

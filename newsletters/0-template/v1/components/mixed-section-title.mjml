@@ -1,0 +1,14 @@
+<mj-section>
+  <mj-column>
+    <mj-table>
+      <tr>
+        <td width="548" style="font-size:24px; line-height:28px; color:#333; font-weight:bold; letter-spacing:-.17px;">
+          Mixed section
+        </td>
+        <td class="pr-30">
+          <img src="https://s3.amazonaws.com/files.ably.io/newsletter/MJML+Newsletter+%5BTemplate%5D/ico-03.png" width="25" style="vertical-align:top;" alt="" />
+        </td>
+      </tr>
+    </mj-table>
+  </mj-column>
+</mj-section>

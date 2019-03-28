@@ -1,0 +1,24 @@
+<mj-section css-class="plr-0" padding="0 15px">
+  <mj-column width="50%" padding="0 15px">
+    <mj-text mj-class="title-h3">
+      Header
+    </mj-text>
+    <mj-text mj-class="primary-text" padding="0 0 7px">
+      Pellentesque quis orci rutrum, vestibulum enim et, pretium quam. Nullam neque arcu, mollis quis tortor sed, consequat varius dolor
+    </mj-text>
+    <mj-text mj-class="primary-link">
+      <a style="color:#50B4F3; text-decoration:none;" href="http://link">View tutorial</a>
+    </mj-text>
+  </mj-column>
+  <mj-column width="50%" padding="0 15px">
+    <mj-text mj-class="title-h3">
+      Header
+    </mj-text>
+    <mj-text mj-class="primary-text" padding="0 0 7px">
+      Pellentesque quis orci rutrum, vestibulum enim et, pretium quam. Nullam neque arcu, mollis quis tortor sed, consequat varius dolor
+    </mj-text>
+    <mj-text mj-class="primary-link">
+      <a style="color:#50B4F3; text-decoration:none;" href="http://link">View tutorial</a>
+    </mj-text>
+  </mj-column>
+</mj-section>

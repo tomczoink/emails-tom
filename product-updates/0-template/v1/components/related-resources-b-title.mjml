@@ -1,0 +1,15 @@
+<mj-section css-class="plr-15" padding="0 30px">
+  <mj-column>
+    <!-- image size: width="96" height="96" -->
+    <mj-image mj-class="resources-icon" />
+    <mj-text mj-class="title-h2" padding="0 0 17px">
+      Related resources B
+    </mj-text>
+    <mj-text mj-class="primary-text">
+      Pellentesque quis orci rutrum, vestibulum enim et, pretium quam. Nullam neque arcu, mollis quis tortor sed, consequat varius dolor
+    </mj-text>
+    <mj-button css-class="primary-btn" mj-class="primary-btn" href="http://link" padding="0 0 43px">
+      Read documentation
+    </mj-button>
+  </mj-column>
+</mj-section>

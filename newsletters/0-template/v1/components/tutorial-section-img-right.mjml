@@ -1,0 +1,27 @@
+<mj-section css-class="columns-wrapper" mj-class="columns-wrapper" direction="rtl">
+  <mj-column width="160px">
+    <mj-image mj-class="primary-img" href="http://link" src="https://s3.amazonaws.com/files.ably.io/newsletter/MJML+Newsletter+%5BTemplate%5D/img-04.png" />
+  </mj-column>
+  <mj-column width="20px"></mj-column>
+  <mj-column width="358px">
+    <mj-text mj-class="title-h3">
+      <a style="color:#50B4F3; text-decoration:none;" href="http://link">Publishing and subscribing to messages</a>
+    </mj-text>
+    <mj-text mj-class="subtitle-autor">
+      By Susie Spader
+    </mj-text>
+    <mj-text mj-class="primary-text">
+      Entrepreneur and former Systems Architect at Google, Amazon and OfferUp, Paul Nordstrom, joins Ably's CTO and CEO to discuss some real-world challenges around scaling distributed systems.
+    </mj-text>
+    <mj-table>
+      <tr>
+        <td width="22" style="font-size:1px; line-height:1px; mso-line-height-rule:at-least;">
+          <img src="https://s3.amazonaws.com/files.ably.io/newsletter/MJML+Newsletter+%5BTemplate%5D/ico-clock.png" width="16" style="vertical-align:top;" alt="" />
+        </td>
+        <td style="font-size:12px; line-height:16px; color:#999; vertical-align:middle;">
+          5 mins (easy)
+        </td>
+      </tr>
+    </mj-table>
+  </mj-column>
+</mj-section>

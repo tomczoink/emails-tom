@@ -1,0 +1,22 @@
+<mj-section css-class="plr-0" padding="0 15px">
+  <mj-column width="50%" padding="0 15px">
+    <!-- image size: width="320" height="240" -->
+    <mj-image mj-class="primary-img" href="http://link" src="https://files.ably.io/email/github-repo/product-updates/0-template/v1/assets/placeholder-02.png" />
+    <mj-text mj-class="title-h3">
+      Header
+    </mj-text>
+    <mj-text mj-class="primary-text">
+      Pellentesque quis orci rutrum, vestibulum enim et, pretium quam. Nullam neque arcu, mollis quis tortor sedasdasdsadolor.
+    </mj-text>
+  </mj-column>
+  <mj-column width="50%" padding="0 15px">
+    <!-- image size: width="320" height="240" -->
+    <mj-image mj-class="primary-img" href="http://link" src="https://files.ably.io/email/github-repo/product-updates/0-template/v1/assets/placeholder-02.png" />
+    <mj-text mj-class="title-h3">
+      Header
+    </mj-text>
+    <mj-text mj-class="primary-text">
+      Pellentesque quis orci rutrum, vestibulum enim et, pretium quam. Nullam neque arcu, mollis quis tortor sed, consequat varius dolor.
+    </mj-text>
+  </mj-column>
+</mj-section>

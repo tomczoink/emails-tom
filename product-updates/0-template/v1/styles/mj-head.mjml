@@ -1,0 +1,213 @@
+<mj-head>
+  <mj-title>Ably</mj-title>
+  <mj-attributes>
+    <!-- reset styles -->
+    <mj-all padding="0" font-family="Arial, Helvetica, sans-serif" />
+    <mj-button inner-padding="0" />
+    <mj-social-element background-color="transparent" padding="7px 13px 7px 0" />
+    <!-- custom styles -->
+
+    <!-- Hero -->
+    <mj-class name="hero-image"
+      background-repeat="no-repeat" />
+    <mj-class name="hero-wrapper"
+      background-color="#fff"
+      padding="30px 30px 0"
+      border-top="1px solid #F1F1F1"
+      border-radius="4px 4px 0 0"
+      overflow="hidden" />
+    <mj-class name="hero-text"
+      align="center"
+      font-size="48px"
+      line-height="53px"
+      font-weight="bold"
+      color="#333" />
+    <mj-class name="hero-logo"
+      width="160px"
+      align="right"
+      alt="ably"
+      href="https://www.ably.io"
+      src="https://files.ably.io/email/github-repo/product-updates/0-template/v1/assets/logo.png" />
+
+    <!-- Content -->
+    <mj-class name="content-wrapper"
+      background-color="#fff"
+      border-left="1px solid #F1F1F1"
+      border-right="1px solid #F1F1F1" />
+    <mj-class name="bottom-border"
+      border-bottom="1px solid #F1F1F1"
+      border-radius="0 0 4px 4px"
+      overflow="hidden" />
+    <mj-class name="primary-btn"
+      width="245px"
+      font-size="14px"
+      line-height="16px"
+      color="#fff"
+      font-weight="bold"
+      background-color="#50B4F3"
+      border-radius="2px"
+      padding="0 0 40px" />
+    <mj-class name="title-h2"
+      align="center"
+      font-size="24px"
+      line-height="30px"
+      color="#333"
+      font-weight="bold" />
+    <mj-class name="title-h3"
+      align="center"
+      font-size="16px"
+      line-height="22px"
+      color="#333"
+      font-weight="bold"
+      padding="0 0 9px" />
+    <mj-class name="primary-text"
+      align="center"
+      font-size="14px"
+      line-height="20px"
+      color="#555"
+      padding="0 0 28px" />
+    <mj-class name="primary-link"
+      padding="0 0 38px"
+      align="center"
+      font-size="14px"
+      line-height="20px"
+      font-weight="bold"
+      color="#50B4F3" />
+    <mj-class name="secondary-link"
+      align="left"
+      font-size="14px"
+      line-height="20px"
+      color="#50B4F3" />
+    <mj-class name="primary-img"
+      width="160px"
+      padding="0 0 23px"
+      align="center" />
+
+    <!-- Spacers -->
+    <mj-class name="spacer-sm"
+      height="20px" />
+    <mj-class name="spacer-md"
+      height="100px" />
+    <mj-class name="spacer-lg"
+      height="200px" />
+
+    <!-- Divider -->
+    <mj-class name="divider-padding"
+      padding="10px 0 38px"/>
+    <mj-class name="divider-body"
+      border-width="1px"
+      border-style="solid"
+      border-color="#F1F1F1" />
+
+    <!-- Intro -->
+    <mj-class name="intro-title"
+      padding="30px 30px 38px"
+      align="center"
+      font-size="24px"
+      line-height="30px"
+      color="#ED760A" />
+    <mj-class name="intro-img"
+      width="440px"
+      href="http://link"
+      src="https://files.ably.io/email/github-repo/product-updates/0-template/v1/assets/placeholder-01.png"
+      padding="0 0 30px"
+      align="center" />
+
+    <!-- Header section -->
+    <mj-class name="main-img"
+      width="400px"
+      href="http://link"
+      src="https://files.ably.io/email/github-repo/product-updates/0-template/v1/assets/img-01.jpg"
+      padding="0 0 32px"
+      align="center" />
+
+    <!-- Related resources B -->
+    <mj-class name="resources-icon"
+      width="48px"
+      src="https://files.ably.io/email/github-repo/product-updates/0-template/v1/assets/ico-01.png"
+      padding="0 0 18px"
+      align="center" />
+
+    <!-- Coming soon -->
+    <mj-class name="coming-wrapper"
+      padding="32px 30px 28px"
+      background-color="#ebebeb"
+      border-radius="4px" />
+    <mj-class name="coming-title"
+      padding="0 0 5px"
+      font-weight="bold" />
+
+    <!-- Footer -->
+    <mj-class name="footer-logo"
+      width="120px"
+      align="left"
+      alt="ably"
+      href="https://www.ably.io"
+      src="https://files.ably.io/email/github-repo/product-updates/0-template/v1/assets/logo-02.png" />
+    <mj-class name="footer-social"
+      icon-size="44px"
+      align="left"
+      padding="0 0 23px"
+      mode="horizontal" />
+    <mj-class name="footer-text"
+      align="left"
+      font-size="16px"
+      line-height="20px"
+      color="#333" />
+    <mj-class name="footer-copy"
+      align="left"
+      font-size="12px"
+      line-height="18px"
+      color="#999" />
+
+  </mj-attributes>
+  <mj-style inline="inline">
+    .primary-btn td {
+      mso-padding-alt: 13px 15px 14px !important;
+    }
+
+    .primary-btn a {
+      display: block !important;
+      padding: 13px 15px 14px !important;
+      border-radius: 2px !important;
+    }
+  </mj-style>
+  <mj-breakpoint width="617px" />
+  <mj-style>
+    @media all and (max-width: 617px) {
+    .fs-32 > div{
+      font-size: 32px !important;
+      line-height: 36px !important;
+    }
+
+    .fs-18 > div{
+      font-size: 18px !important;
+      line-height: 24px !important;
+    }
+
+    .plr-0 > table > tbody > tr > td{
+      padding-left:0 !important; padding-right:0 !important;
+    }
+
+    .plr-15 > table > tbody > tr > td{
+      padding-left:15px !important; padding-right:15px !important;
+    }
+
+    .pb-30 {
+      padding-bottom: 30px !important;
+    }
+
+    .tplr-0{
+      padding-left:0 !important; padding-right:0 !important;
+    }
+
+    .ta-l {
+      text-align:left !important;
+    }
+
+    .ta-l div {
+      text-align:left !important;
+    }
+    }
+  </mj-style>
+</mj-head>

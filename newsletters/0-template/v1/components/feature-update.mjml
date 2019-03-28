@@ -1,0 +1,18 @@
+<mj-section>
+  <mj-column>
+    <mj-image mj-class="fullwidth-img" />
+  </mj-column>
+</mj-section>
+<mj-section css-class="columns-wrapper" mj-class="columns-wrapper">
+  <mj-column>
+    <mj-text mj-class="title-h2" align="center" padding="0 0 16px">
+      Feature / product update
+    </mj-text>
+    <mj-text mj-class="primary-text" align="center" padding="0 0 30px">
+      Pellentesque consequat elit eget tristique sagittis. Etiam et erat et lorem elementum commodo. Aenean congue diam a nibh accumsan tincidunt. Ut malesuada odio luctus libero pulvinar, et pharetra enim volutpat nulla facilisi.
+    </mj-text>
+    <mj-button css-class="primary-btn" mj-class="primary-btn" href="http://link">
+      Call to action
+    </mj-button>
+  </mj-column>
+</mj-section>

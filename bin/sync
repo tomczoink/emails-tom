@@ -1,0 +1,11 @@
+#!/bin/bash
+
+set -eo pipefail
+
+DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" >/dev/null && pwd )"
+
+aws s3 sync "$DIR/.." s3://files.ably.io/email/images --exclude 'node_modules/*' --exclude '.git/*' --exclude '.DS_STORE' --exclude '.gitignore'
+
+if [ "$SYNCING" == "true" ]; then
+  echo " .... press Ctrl-C to abort continuous sync"
+fi

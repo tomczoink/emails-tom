@@ -1,0 +1,18 @@
+<mj-section>
+  <mj-column>
+    <!-- image size: width="160" height="100" -->
+    <mj-image mj-class="hero-logo" />
+  </mj-column>
+</mj-section>
+<mj-section>
+  <mj-column>
+    <mj-spacer mj-class="spacer-lg" />
+  </mj-column>
+</mj-section>
+<mj-section css-class="plr-15" padding="0 30px">
+  <mj-column css-class="plr-15" mj-class="hero-wrapper">
+    <mj-text css-class="fs-32" mj-class="hero-text">
+      Product or feature announcement headline
+    </mj-text>
+  </mj-column>
+</mj-section>

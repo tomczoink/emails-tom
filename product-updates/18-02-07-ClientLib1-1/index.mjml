@@ -1,0 +1,483 @@
+<mjml>
+	<mj-head>
+		<mj-title>ably</mj-title>
+		<mj-attributes>
+			<mj-all padding="0" font-family="Arial, Helvetica, sans-serif" />
+			<mj-button inner-padding="0" />
+		</mj-attributes>
+		<mj-style inline="inline">
+			.btn-01 td{
+				overflow:hidden;
+				mso-padding-alt: 13px 15px 14px;
+			}
+			.btn-01 a {
+				display: block;
+				padding: 13px 15px 14px;
+			}
+			.wrapper-hero{
+				border-radius:3px 3px 0 0;
+				overflow:hidden;
+			}
+			.wrapper-content{
+				border-radius:0 0 4px 4px;
+				overflow:hidden;
+			}
+		</mj-style>
+		<mj-breakpoint width="617px" />
+		<mj-style>
+		@media all and (max-width: 617px) {
+			.fs-32 > div{
+				font-size: 32px !important;
+				line-height: 36px !important;
+			}
+
+			.fs-18 > div{
+				font-size: 18px !important;
+				line-height: 24px !important;
+			}
+
+			.plr-0 > table > tbody > tr > td{
+				padding-left:0 !important; padding-right:0 !important;
+			}
+
+			.plr-15 > table > tbody > tr > td{
+				padding-left:15px !important; padding-right:15px !important;
+			}
+
+			.tplr-0{
+				padding-left:0 !important; padding-right:0 !important;
+			}
+
+			.ta-l {
+				text-align:left !important;
+			}
+
+			.ta-l div {
+				text-align:left !important;
+			}
+		}
+		</mj-style>
+	</mj-head>
+	<mj-body background-color="#f8f8f8">
+		<!-- hero -->
+		<!-- bg image size: width="598" height="400" -->
+		<mj-wrapper css-class="wrapper-hero" background-url="https://s3.amazonaws.com/files.ably.io/newsletter/ChannelMetadataEmail+-+Dec+'18/meta-header3.png"
+					background-repeat="no-repeat"
+					background-color="#fff"
+					border-top="1px solid #F1F1F1"
+					border-left="1px solid #F1F1F1"
+					border-right="1px solid #F1F1F1">
+			<mj-section>
+				<mj-column>
+					<!-- image size: width="160" height="100" -->
+					<mj-image width="160px"
+							  align="right"
+							  alt="ably"
+							  href="http://www.ably.io"
+							  src="https://s3.amazonaws.com/files.ably.io/email/ClientLib1.1/logo.png" />
+				</mj-column>
+			</mj-section>
+			<mj-section>
+				<mj-column>
+					<mj-spacer height="200px" />
+				</mj-column>
+			</mj-section>
+			<mj-section css-class="plr-15" padding="0 30px">
+				<mj-column css-class="plr-15"
+						   background-color="#fff"
+						   padding="30px 30px 0"
+						   border-radius="4px 4px 0 0">
+					<mj-text css-class="fs-32"
+							 align="center"
+							 font-size="48px"
+							 line-height="53px"
+							 font-weight="bold"
+							 color="#333">
+						1.1 Client Library SDKs Release
+					</mj-text>
+				</mj-column>
+			</mj-section>
+		</mj-wrapper>
+		<!-- end hero -->
+		<!-- content -->
+		<mj-wrapper css-class="wrapper-content" background-color="#fff"
+					border-bottom="1px solid #F1F1F1"
+					border-left="1px solid #F1F1F1"
+					border-right="1px solid #F1F1F1">
+			<!-- section -->
+			<mj-section css-class="plr-15" padding="0 30px">
+				<mj-column>
+					<mj-text css-class="tplr-0 fs-18"
+							 padding="30px 30px 38px"
+							 align="center"
+							 font-size="24px"
+							 line-height="30px"
+							 color="#ED760A">
+						Push notifications, batch processing, signficant library updates and much more
+					</mj-text>
+					<mj-button css-class="btn-01"
+							   href="https://blog.ably.io/ablys-client-library-sdks-1-1-release-8165c73c76fd"
+							   width="280px"
+							   font-size="14px"
+							   line-height="16px"
+							   color="#fff"
+							   font-weight="bold"
+							   background-color="#50B4F3"
+							   border-radius="2px"
+							   padding="0 0 10px">
+						Read the blog
+					</mj-button>
+          <mj-text padding="0 0 30px"
+							 align="center"
+							 font-size="11px"
+							 line-height="0px"
+							 color="#555"
+							 letter-spacing="-0.2px">
+						<a href="https://changelog.ably.io/">Or view the full changelog</a>
+					</mj-text>
+					<mj-text padding="0 0 30px"
+							 align="center"
+							 font-size="14px"
+							 line-height="20px"
+							 color="#555"
+							 letter-spacing="-0.2px">
+						The 1.1 release is backwards-compatible but we recommend you <a href="https://www.ably.io/download">upgrade</a> your libraries so you can take advantage of the improved APIs, new features and functionality, and fixes and improvements.
+					</mj-text>
+			<mj-section padding="10px 0 38px">
+				<mj-column>
+					<mj-divider border-width="1px" border-style="solid" border-color="#F1F1F1" />
+				</mj-column>
+			</mj-section>
+			<!-- end devider -->
+			<!-- section -->
+			<mj-section css-class="plr-15" padding="0 30px">
+				<mj-column>
+					<mj-text padding="0 0 42px"
+							 align="center"
+							 font-size="24px"
+							 line-height="30px"
+							 color="#333"
+							 font-weight="bold">
+						New features and functionality
+					</mj-text>
+				</mj-column>
+			</mj-section>
+			<mj-section css-class="plr-0" padding="0 15px">
+				<mj-column width="50%"
+						   padding="0 15px">
+					<!-- image size: width="320" height="240" -->
+					<mj-text padding="0 0 9px"
+							 align="center"
+							 font-size="16px"
+							 line-height="22px"
+							 color="#333"
+							 font-weight="bold">
+						<a href="https://www.ably.io/documentation/realtime/channels#transient-publish">Transient Publishing</a>
+					</mj-text>
+					<mj-text padding="0 0 28px"
+							 align="center"
+							 font-size="14px"
+							 line-height="20px"
+							 color="#555"
+							 letter-spacing="-0.2px">
+Publish to a channel without attaching to it and no longer worry about the client inadvertently receiving all messages published on that channel.
+					</mj-text>
+				</mj-column>
+				<mj-column width="50%"
+						   padding="0 15px">
+					<!-- image size: width="320" height="240" -->
+					<mj-text padding="0 0 9px"
+							 align="center"
+							 font-size="16px"
+							 line-height="22px"
+							 color="#333"
+							 font-weight="bold">
+						<a href="https://www.ably.io/documentation/general/push">Push Notifications</a>
+					</mj-text>
+					<mj-text padding="0 0 28px"
+							 align="center"
+							 font-size="14px"
+							 line-height="20px"
+							 color="#555"
+							 letter-spacing="-0.2px">
+						Thanks to those of you who got involved in beta testing push notifications. After a some tweaking push notifications are now generally available!
+					</mj-text>
+				</mj-column>
+			</mj-section>
+			<!-- end section -->
+			<!-- section -->
+			<mj-section css-class="plr-0" padding="0 15px">
+				<mj-column width="50%"
+						   padding="0 15px">
+					<!-- image size: width="320" height="240" -->
+					<mj-text padding="0 0 9px"
+							 align="center"
+							 font-size="16px"
+							 line-height="22px"
+							 color="#333"
+							 font-weight="bold">
+						<a href="https://www.ably.io/documentation/rest-api/beta">Batch REST publishing</a>
+					</mj-text>
+					<mj-text padding="0 0 28px"
+							 align="center"
+							 font-size="14px"
+							 line-height="20px"
+							 color="#555"
+							 letter-spacing="-0.2px">
+						The experimental batch REST publishing API allows a single REST operation to publish one or more messages to one or more channels in a single operation.
+					</mj-text>
+				</mj-column>
+				<mj-column width="50%"
+						   padding="0 15px">
+					<!-- image size: width="320" height="240" -->
+					<mj-text padding="0 0 9px"
+							 align="center"
+							 font-size="16px"
+							 line-height="22px"
+							 color="#333"
+							 font-weight="bold">
+						<a href="https://www.ably.io/dsx">Access to the DSX</a>
+					</mj-text>
+					<mj-text padding="0 0 28px"
+							 align="center"
+							 font-size="14px"
+							 line-height="20px"
+							 color="#555"
+							 letter-spacing="-0.2px">
+						Some client libraries now support access to the new Ably Data Stream Exchange (DSX) stats. If you try the DSX, we'd love to hear what you think about it.
+					</mj-text>
+				</mj-column>
+			</mj-section>
+			<mj-section css-class="plr-0" padding="0 15px">
+				<mj-column width="50%"
+						   padding="0 15px">
+					<!-- image size: width="320" height="240" -->
+					<mj-text padding="0 0 9px"
+							 align="center"
+							 font-size="16px"
+							 line-height="22px"
+							 color="#333"
+							 font-weight="bold">
+            <a href="https://github.com/ably/ably-dotnet">.NET</a> and <a href="https://github.com/ably/ably-go">go</a> love
+					</mj-text>
+					<mj-text padding="0 0 28px"
+							 align="center"
+							 font-size="14px"
+							 line-height="20px"
+							 color="#555"
+							 letter-spacing="-0.2px">
+				We massively upgraded the .NET and go libraries from 0.8 to 1.1. Yep, we skipped a 1.0 release.
+					</mj-text>
+				</mj-column>
+				<mj-column width="50%"
+						   padding="0 15px">
+					<!-- image size: width="320" height="240" -->
+					<mj-text padding="0 0 9px"
+							 align="center"
+							 font-size="16px"
+							 line-height="22px"
+							 color="#333"
+							 font-weight="bold">
+						<a href="https://github.com/ably/ably-cocoa">iOS goes multi-platform</a>
+					</mj-text>
+					<mj-text padding="0 0 28px"
+							 align="center"
+							 font-size="14px"
+							 line-height="20px"
+							 color="#555"
+							 letter-spacing="-0.2px">
+						iOS is now multi-platform with support for tvOS and macOS. We're excited about this one.
+					</mj-text>
+				</mj-column>
+			</mj-section>
+			<!-- end section -->
+			<!-- section -->
+			</mj-section>
+      <!-- end section -->
+			<!-- devider -->
+			<mj-section padding="10px 0 38px">
+				<mj-column>
+					<mj-divider border-width="1px" border-style="solid" border-color="#F1F1F1" />
+				</mj-column>
+			</mj-section>
+			<!-- end devider -->
+			<!-- section -->
+			<mj-section css-class="plr-15" padding="0 30px">
+				<mj-column>
+					<!-- image size: width="96" height="96" -->
+					<mj-image width="48px"
+							  src="https://s3.amazonaws.com/files.ably.io/email/ClientLib1.1/ico-01.png"
+							  padding="0 0 18px"
+							  align="center" />
+					<mj-text padding="0 0 17px"
+							 align="center"
+							 font-size="24px"
+							 line-height="30px"
+							 color="#333"
+							 font-weight="bold">
+						Dive into the docs
+					</mj-text>
+					<mj-text padding="0 0 28px"
+							 align="center"
+							 font-size="14px"
+							 line-height="20px"
+							 color="#555"
+							 letter-spacing="-0.2px">
+						We've updated our client library SDK docs to reflect changes in 1.1.
+					</mj-text>
+					<mj-button css-class="btn-01"
+							   href="https://www.ably.io/documentation/"
+							   width="245px"
+							   font-size="14px"
+							   line-height="16px"
+							   color="#fff"
+							   font-weight="bold"
+							   background-color="#50B4F3"
+							   border-radius="2px"
+							   padding="0 0 10px">
+						Read documentation
+					</mj-button>
+            <mj-text padding="0 0 30px"
+							 align="center"
+							 font-size="11px"
+							 line-height="0px"
+							 color="#ED760A"
+							 letter-spacing="-0.2px">
+						<a href="https://changelog.ably.io/">View the full changelog</a>
+					</mj-text>
+				</mj-column>
+			</mj-section>
+			<!-- end section -->
+		</mj-wrapper>
+		<!-- end content -->
+		<!-- spacer -->
+		<mj-section>
+			<mj-column>
+				<mj-spacer height="20px" />
+			</mj-column>
+		</mj-section>
+		<!-- end spacer -->
+		<!-- gray section -->
+		<mj-section css-class="plr-15"
+					padding="32px 30px 28px"
+					background-color="#ebebeb"
+					border-radius="4px">
+			<mj-column>
+				<mj-text padding="0 0 5px"
+						 align="center"
+						 font-size="14px"
+						 line-height="20px"
+						 color="#555"
+						 font-weight="bold">
+					More to come...
+				</mj-text>
+				<mj-text align="center"
+						 font-size="14px"
+						 line-height="20px"
+						 color="#555">
+					We'll be sending two more notifications about this 1.1 client library SDK release. The first will be the docs and tutorials for push notifications. The second will be when we enable idempotent publishing in a few weeks - more on this in the 1.1 release blog.
+				</mj-text>
+			</mj-column>
+		</mj-section>
+		<!-- end gray section -->
+		<!-- spacer -->
+		<mj-section>
+			<mj-column>
+				<mj-spacer height="100px" />
+			</mj-column>
+		</mj-section>
+		<!-- end spacer -->
+		<!-- footer -->
+		<mj-wrapper full-width="full-width"
+					background-color="#f1f1f1"
+					padding="60px 0">
+			<!-- two columns -->
+			<mj-section css-class="plr-15" padding="0 0 10px">
+				<mj-column width="385">
+					<mj-text padding="0 0 15px"
+							 align="left"
+							 font-size="14px"
+							 line-height="20px"
+							 color="#50B4F3">
+						<a style="color:#50B4F3; text-decoration:none;" href="<[unsubscribe]>">Unsubscribe from newsletters</a>
+					</mj-text>
+					<mj-text padding="0 0 20px"
+							 align="left"
+							 font-size="14px"
+							 line-height="20px"
+							 color="#333"
+							 font-weight="bold">
+						Follow us
+					</mj-text>
+					<!-- social -->
+					<mj-social icon-size="44px" 
+							   inner-padding="0 15px 0 0"
+							   align="left"
+							   padding="0 0 30px"
+							   mode="horizontal">
+						<!-- social image size: width="88" height="88" -->
+						<mj-social-element name="twitter"
+										   href="https://twitter.com/ablyrealtime"
+										   src="https://s3.amazonaws.com/files.ably.io/newsletter/ChannelMetadataEmail+-+Dec+'18/ico-twitter.png"
+										   background-color="transparent"></mj-social-element>
+						<!-- social image size: width="88" height="88" -->
+						<mj-social-element name="facebook"
+										   href="https://www.facebook.com/ablyrealtime"
+										   src="https://s3.amazonaws.com/files.ably.io/newsletter/ChannelMetadataEmail+-+Dec+'18/ico-facebook.png"
+										   background-color="transparent"></mj-social-element>
+						<!-- social image size: width="88" height="88" -->
+						<mj-social-element name="linkedin"
+										   href="https://www.linkedin.com/company/ably---real-time-messaging/"
+										   src="https://s3.amazonaws.com/files.ably.io/newsletter/ChannelMetadataEmail+-+Dec+'18/ico-linkedin.png"
+										   background-color="transparent"></mj-social-element>
+					</mj-social>
+				</mj-column>
+				<mj-column width="215">
+					<!-- image size: width="240" height="96" -->
+					<mj-image width="120px"
+							  align="left"
+							  alt="ably"
+							  href="http://www.ably.io"
+							  src="https://s3.amazonaws.com/files.ably.io/email/ClientLib1.1/logo-02.png" />
+					<mj-text padding="3px 0 10px 54px"
+							 align="left"
+							 font-size="16px"
+							 line-height="20px"
+							 color="#333">
+						Simply better realtime
+					</mj-text>
+					<mj-text padding="0 0 20px 54px"
+							 align="left"
+							 font-size="14px"
+							 line-height="20px"
+							 color="#50B4F3">
+						<a style="color:#50B4F3; text-decoration:none;" href="http://www.ably.io">www.ably.io</a>
+					</mj-text>
+				</mj-column>
+				<mj-column width="94"></mj-column>
+			</mj-section>
+			<!-- end two columns -->
+			<!-- devider -->
+			<mj-section padding="0 0 23px">
+				<mj-column>
+					<mj-divider border-width="1px" border-style="solid" border-color="#dbdbdb" />
+				</mj-column>
+			</mj-section>
+			<!-- end devider -->
+			<!-- text -->
+			<mj-section css-class="plr-15">
+				<mj-column>
+					<mj-text align="left"
+							 font-size="12px"
+							 line-height="18px"
+							 color="#999">
+						<b>Ably Realtime</b><br/>
+						Atrium Labs, Unit 2.22, Camden Market, NW1 8AB, United Kingdom
+					</mj-text>
+				</mj-column>
+			</mj-section>
+			<!-- end text -->
+		</mj-wrapper>
+		<!-- end footer -->
+	</mj-body>
+</mjml>

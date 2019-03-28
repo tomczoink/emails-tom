@@ -1,0 +1,507 @@
+<mjml>
+  <mj-include path="../0-template/v1/styles/mj-head.mjml" />
+  
+	<mj-body background-color="#f8f8f8" width="640px">
+		<!-- start header --> 	
+		<mj-wrapper padding="20px">
+		<!-- <mj-include path="../0-template/v1/components/header.mjml" /> -->
+			<mj-section css-class="header-wrapper" direction="rtl">
+				<mj-column css-class="header-holder" mj-class="header-right-side">
+					<mj-image css-class="logo-mobile" mj-class="header-logo" />
+					<mj-text css-class="text-mobile" mj-class="header-issue">
+					Issue
+					<p class="fs-32 m-0" style="font-size:40px; line-height:44px; letter-spacing:.25px; margin:4px 0;">
+						#14
+					</p>
+					<p style="font-weight:normal; color:#fff; margin:0;">
+						Jan 2019
+					</p>
+					</mj-text>
+				</mj-column>
+				<mj-column mj-class="header-left-side">
+					<mj-text css-class="fs-28 pb-16" mj-class="header-title">
+					What’s been happening this month&nbsp;at Ably
+					</mj-text>
+					<mj-text css-class="pb-7" mj-class="header-text">
+					Discover in-depth technical concepts that underpin realtime distribution, learn how to build faster with new tutorials, and meet our latest product, the Ably DSX.
+					</mj-text>
+				</mj-column>
+			</mj-section>
+		</mj-wrapper>
+		<!-- end header -->
+
+		<!-- start blog title section -->
+		<mj-wrapper padding="20px">
+			<!-- <mj-include path="../0-template/v1/components/blog-section-title.mjml" />-->
+			<mj-section>
+				<mj-column>
+					<mj-table>
+					<tr>
+						<td width="548" style="font-size:24px; line-height:28px; color:#333; font-weight:bold; letter-spacing:-.17px;">
+						Latest from our blog
+						</td>
+						<td class="pr-30">
+						<img src="https://s3.amazonaws.com/files.ably.io/newsletter/MJML+Newsletter+%5BTemplate%5D/ico-01.png" width="24" style="vertical-align:top;" alt="" />
+						</td>
+					</tr>
+					</mj-table>
+				</mj-column>
+			</mj-section>
+		</mj-wrapper>
+		<!-- end blog title section -->
+
+		<!-- start blog content section -->
+		<!-- start blog card 1 -->
+		<mj-wrapper padding="10px 20px 0">
+			<!-- <mj-include path="../0-template/v1/components/blog-section-img-left.mjml" /> -->
+			<mj-section css-class="columns-wrapper" mj-class="columns-wrapper">
+				<mj-column width="160px">
+					<mj-image mj-class="primary-img" href="http://link" src="https://s3.amazonaws.com/files.ably.io/newsletter/MJML+Newsletter+%5BTemplate%5D/img-01.png" />
+				</mj-column>
+				<mj-column width="20px"></mj-column>
+				<mj-column width="358px">
+					<mj-text mj-class="title-h3">
+					<a style="color:#50B4F3; text-decoration:none;" href="http://link">The hidden scaling issues of distributed systems</a>
+					</mj-text>
+					<mj-text mj-class="primary-text">
+					Entrepreneur and former Systems Architect at Google, Amazon and OfferUp, Paul Nordstrom, joins Ably's CTO and CEO to discuss some real-world challenges around scaling distributed systems.
+					</mj-text>
+					<mj-table>
+					<tr>
+						<td width="22" style="font-size:1px; line-height:1px; mso-line-height-rule:at-least;">
+						<img src="https://s3.amazonaws.com/files.ably.io/newsletter/MJML+Newsletter+%5BTemplate%5D/ico-clock.png" width="16" style="vertical-align:top;" alt="" />
+						</td>
+						<td style="font-size:12px; line-height:16px; color:#999; vertical-align:middle;">
+						30 min watch
+						</td>
+					</tr>
+					</mj-table>
+				</mj-column>
+			</mj-section>
+		</mj-wrapper>
+		<!-- end blog card 1 -->
+		<!-- start blog card 2 -->
+		<mj-wrapper padding="10px 20px 0">
+			<!-- <mj-include path="../0-template/v1/components/blog-section-img-left.mjml" /> -->
+			<mj-section css-class="columns-wrapper" mj-class="columns-wrapper">
+				<mj-column width="160px">
+					<mj-image mj-class="primary-img" href="http://link" src="https://s3.amazonaws.com/files.ably.io/newsletter/MJML+Newsletter+%5BTemplate%5D/img-02.png" />
+				</mj-column>
+				<mj-column width="20px"></mj-column>
+				<mj-column width="358px">
+					<mj-text mj-class="title-h3">
+					<a style="color:#50B4F3; text-decoration:none;" href="http://link">A horizontally scalable distributed rate limiter</a>
+					</mj-text>
+					<mj-text mj-class="primary-text">
+					Engineer Simon Woolf reveals how we overcame the challenging issue of rate-limiting in ever-growing distributed clusters.
+					</mj-text>
+					<mj-table>
+					<tr>
+						<td width="22" style="font-size:1px; line-height:1px; mso-line-height-rule:at-least;">
+						<img src="https://s3.amazonaws.com/files.ably.io/newsletter/MJML+Newsletter+%5BTemplate%5D/ico-clock.png" width="16" style="vertical-align:top;" alt="" />
+						</td>
+						<td style="font-size:12px; line-height:16px; color:#999; vertical-align:middle;">
+						9 min read
+						</td>
+					</tr>
+					</mj-table>
+				</mj-column>
+			</mj-section>
+		</mj-wrapper>
+		<!-- end blog card 2 -->
+		<!-- start blog card 3 -->
+		<mj-wrapper padding="10px 20px 0">
+			<!-- <mj-include path="../0-template/v1/components/blog-section-img-left.mjml" /> -->
+			<mj-section css-class="columns-wrapper" mj-class="columns-wrapper">
+				<mj-column width="160px">
+					<mj-image mj-class="primary-img" href="http://link" src="https://s3.amazonaws.com/files.ably.io/newsletter/MJML+Newsletter+%5BTemplate%5D/img-03.png" />
+				</mj-column>
+				<mj-column width="20px"></mj-column>
+				<mj-column width="358px">
+					<mj-text mj-class="title-h3">
+					<a style="color:#50B4F3; text-decoration:none;" href="http://link">How we implemented consistent hashing efficiently</a>
+					</mj-text>
+					<mj-text mj-class="primary-text">
+					To ensure load and data are distributed evenly across our global data centers, we use consistent hashing algorithms. Developer Advocate Srushtika Neelakantam explains how this works.
+					</mj-text>
+					<mj-table>
+					<tr>
+						<td width="22" style="font-size:1px; line-height:1px; mso-line-height-rule:at-least;">
+						<img src="https://s3.amazonaws.com/files.ably.io/newsletter/MJML+Newsletter+%5BTemplate%5D/ico-clock.png" width="16" style="vertical-align:top;" alt="" />
+						</td>
+						<td style="font-size:12px; line-height:16px; color:#999; vertical-align:middle;">
+						12 min read
+						</td>
+					</tr>
+					</mj-table>
+				</mj-column>
+			</mj-section>
+		</mj-wrapper>
+		<!-- end blog card 3 -->
+		<!-- end blog content section -->
+
+		<!-- start visit link -->
+		<mj-wrapper padding="30px 20px 20px">
+			<!-- <mj-include path="../0-template/v1/components/visit-link.mjml" /> -->
+			<mj-section>
+				<mj-column mj-class="link-wrapper">
+					<mj-table>
+					<tr>
+						<td width="18" style="font-size:1px; line-height:1px; mso-line-height-rule:at-least;">
+						<img src="https://s3.amazonaws.com/files.ably.io/newsletter/MJML+Newsletter+%5BTemplate%5D/ico-rarr.png" width="9" style="vertical-align:top;" alt="" />
+						</td>
+						<td style="font-size:14px; line-height:16px; color:#50B4F3; vertical-align:middle;">
+						<a style="color:#50B4F3; text-decoration:none;" href="http://link">Visit the blog</a>
+						</td>
+					</tr>
+					</mj-table>
+				</mj-column>
+			</mj-section>
+		</mj-wrapper>
+		<!-- end visit link -->
+
+		<!-- start tutorials title section -->
+		<mj-wrapper padding="20px">
+			<!-- <mj-include path="../0-template/v1/components/tutorial-section-title.mjml" /> -->
+			<mj-section>
+				<mj-column>
+					<mj-table>
+					<tr>
+						<td width="548" style="font-size:24px; line-height:28px; color:#333; font-weight:bold; letter-spacing:-.17px;">
+						Try these new tutorials
+						</td>
+						<td class="pr-30">
+						<img src="https://s3.amazonaws.com/files.ably.io/newsletter/MJML+Newsletter+%5BTemplate%5D/ico-02.png" width="24" style="vertical-align:top;" alt="" />
+						</td>
+					</tr>
+					</mj-table>
+				</mj-column>
+			</mj-section>
+		</mj-wrapper>
+		<!-- end tutorials title section -->
+
+		<!-- start tutorials contents section -->
+		<!-- start tutorial card 1 -->
+		<mj-wrapper padding="10px 20px 0">
+			<!--<mj-include path="../0-template/v1/components/tutorial-section-img-right.mjml" />-->
+			<mj-section css-class="columns-wrapper" mj-class="columns-wrapper" direction="rtl">
+				<mj-column width="160px">
+					<mj-image mj-class="primary-img" href="http://link" src="https://s3.amazonaws.com/files.ably.io/newsletter/MJML+Newsletter+%5BTemplate%5D/img-04.png" />
+				</mj-column>
+				<mj-column width="20px"></mj-column>
+				<mj-column width="358px">
+					<mj-text mj-class="title-h3">
+					<a style="color:#50B4F3; text-decoration:none;" href="http://link">Publishing and subscribing to messages</a>
+					</mj-text>
+					<mj-text mj-class="subtitle-autor">
+					By Susie Spader
+					</mj-text>
+					<mj-text mj-class="primary-text">
+					Entrepreneur and former Systems Architect at Google, Amazon and OfferUp, Paul Nordstrom, joins Ably's CTO and CEO to discuss some real-world challenges around scaling distributed systems.
+					</mj-text>
+					<mj-table>
+					<tr>
+						<td width="22" style="font-size:1px; line-height:1px; mso-line-height-rule:at-least;">
+						<img src="https://s3.amazonaws.com/files.ably.io/newsletter/MJML+Newsletter+%5BTemplate%5D/ico-clock.png" width="16" style="vertical-align:top;" alt="" />
+						</td>
+						<td style="font-size:12px; line-height:16px; color:#999; vertical-align:middle;">
+						5 mins (easy)
+						</td>
+					</tr>
+					</mj-table>
+				</mj-column>
+			</mj-section>
+		</mj-wrapper>
+		<!-- end tutorial card 1-->
+		<!-- start tutorial card 2 -->
+		<mj-wrapper padding="10px 20px 0">
+			<!-- <mj-include path="../0-template/v1/components/tutorial-section-img-right.mjml" /> -->
+			<mj-section css-class="columns-wrapper" mj-class="columns-wrapper" direction="rtl">
+				<mj-column width="160px">
+					<mj-image mj-class="primary-img" href="http://link" src="https://s3.amazonaws.com/files.ably.io/newsletter/MJML+Newsletter+%5BTemplate%5D/img-05.png" />
+				</mj-column>
+				<mj-column width="20px"></mj-column>
+				<mj-column width="358px">
+					<mj-text mj-class="title-h3" padding="0 0 5px">
+					<a style="color:#50B4F3; text-decoration:none;" href="http://link">Using WebRTC with Ably</a>
+					</mj-text>
+					<mj-text mj-class="subtitle-autor">
+					By Samuel Ogundipe
+					</mj-text>
+					<mj-text mj-class="primary-text">
+					Engineer Simon Woolf reveals how we overcame the challenging issue of rate-limiting in ever-growing distributed clusters.
+					</mj-text>
+					<mj-table>
+					<tr>
+						<td width="22" style="font-size:1px; line-height:1px; mso-line-height-rule:at-least;">
+						<img src="https://s3.amazonaws.com/files.ably.io/newsletter/MJML+Newsletter+%5BTemplate%5D/ico-clock.png" width="16" style="vertical-align:top;" alt="" />
+						</td>
+						<td style="font-size:12px; line-height:16px; color:#999; vertical-align:middle;">
+						5 mins (easy)
+						</td>
+					</tr>
+					</mj-table>
+				</mj-column>
+			</mj-section>
+		</mj-wrapper>
+		<!-- end tutorial card 2 -->
+		<!-- start tutorial two columns section -->
+		<mj-wrapper padding="10px 20px 0">
+			<!-- <mj-include path="../0-template/v1/components/tutorial-section-two-columns.mjml" /> -->
+			<mj-section>
+				<mj-column css-class="columns-wrapper" mj-class="column-holder">
+					<mj-text mj-class="title-h3" padding="0 0 5px">
+					<a style="color:#50B4F3; text-decoration:none;" href="http://link">Build a Realtime chat app with React Native and Ably</a>
+					</mj-text>
+					<mj-text mj-class="subtitle-autor">
+					By Susie Spader
+					</mj-text>
+					<mj-text mj-class="primary-text">
+					Learn how to create your very own Messaging App which runs on both iOS and Android.
+					</mj-text>
+					<mj-table>
+					<tr>
+						<td width="22" style="font-size:1px; line-height:1px; mso-line-height-rule:at-least;">
+						<img src="https://s3.amazonaws.com/files.ably.io/newsletter/MJML+Newsletter+%5BTemplate%5D/ico-clock.png" width="16" style="vertical-align:top;" alt="" />
+						</td>
+						<td style="font-size:12px; line-height:16px; color:#999; vertical-align:middle;">
+						30 mins (medium)
+						</td>
+					</tr>
+					</mj-table>
+				</mj-column>
+				<mj-column width="10px" padding="0 0 10px"></mj-column>
+				<mj-column css-class="columns-wrapper" mj-class="column-holder">
+					<mj-text mj-class="title-h3" padding="0 0 5px">
+					<a style="color:#50B4F3; text-decoration:none;" href="http://link">Mobile token authentication</a>
+					</mj-text>
+					<mj-text mj-class="subtitle-autor">
+					By Samuel Ogundipe
+					</mj-text>
+					<mj-text mj-class="primary-text">
+					Learn how to issue signed tokens for your users, configure their capabilities (permissions) and authenticate mobile clients using these tokens.
+					</mj-text>
+					<mj-table>
+					<tr>
+						<td width="22" style="font-size:1px; line-height:1px; mso-line-height-rule:at-least;">
+						<img src="https://s3.amazonaws.com/files.ably.io/newsletter/MJML+Newsletter+%5BTemplate%5D/ico-clock.png" width="16" style="vertical-align:top;" alt="" />
+						</td>
+						<td style="font-size:12px; line-height:16px; color:#999; vertical-align:middle;">
+						30 mins (medium)
+						</td>
+					</tr>
+					</mj-table>
+				</mj-column>
+			</mj-section>
+		</mj-wrapper>
+		<!-- end tutorial two columns section -->
+		<!-- end tutorials contents section -->
+
+		<!-- start visit link -->
+		<mj-wrapper padding="30px 20px 20px">
+			<!-- <mj-include path="../0-template/v1/components/visit-link.mjml" /> -->
+			<mj-section>
+				<mj-column mj-class="link-wrapper">
+					<mj-table>
+					<tr>
+						<td width="18" style="font-size:1px; line-height:1px; mso-line-height-rule:at-least;">
+						<img src="https://s3.amazonaws.com/files.ably.io/newsletter/MJML+Newsletter+%5BTemplate%5D/ico-rarr.png" width="9" style="vertical-align:top;" alt="" />
+						</td>
+						<td style="font-size:14px; line-height:16px; color:#50B4F3; vertical-align:middle;">
+						<a style="color:#50B4F3; text-decoration:none;" href="http://link">View all tutorials</a>
+						</td>
+					</tr>
+					</mj-table>
+				</mj-column>
+			</mj-section>
+		</mj-wrapper>
+		<!-- end visit link -->
+
+		<!-- start mixed section title -->
+		<mj-wrapper padding="20px">
+			<!-- <mj-include path="../0-template/v1/components/mixed-section-title.mjml" /> -->
+			<mj-section>
+				<mj-column>
+					<mj-table>
+					<tr>
+						<td width="548" style="font-size:24px; line-height:28px; color:#333; font-weight:bold; letter-spacing:-.17px;">
+						Mixed section
+						</td>
+						<td class="pr-30">
+						<img src="https://s3.amazonaws.com/files.ably.io/newsletter/MJML+Newsletter+%5BTemplate%5D/ico-03.png" width="25" style="vertical-align:top;" alt="" />
+						</td>
+					</tr>
+					</mj-table>
+				</mj-column>
+			</mj-section>
+		</mj-wrapper>
+		<!-- end mixed section title -->
+
+		<!-- start mixed section two columns -->
+		<mj-wrapper padding="10px 20px 20px">
+			<!-- <mj-include path="../0-template/v1/components/mixed-section-two-columns.mjml" /> -->
+			<mj-section css-class="columns-wrapper" mj-class="columns-wrapper">
+				<mj-column width="253px">
+					<mj-text mj-class="title-h3">
+					<a style="color:#50B4F3; text-decoration:none;" href="http://link">Header</a>
+					</mj-text>
+					<mj-text mj-class="primary-text">
+					Pellentesque quis orci rutrum, vestibulum enim et, pretium quam. Nullam neque arcu, mollis quis tortor sed, consequat varius dolor.
+					</mj-text>
+					<mj-table padding="0 0 20px">
+					<tr>
+						<td width="22" style="font-size:1px; line-height:1px; mso-line-height-rule:at-least;">
+						<img src="https://s3.amazonaws.com/files.ably.io/newsletter/MJML+Newsletter+%5BTemplate%5D/ico-clock.png" width="16" style="vertical-align:top;" alt="" />
+						</td>
+						<td style="font-size:12px; line-height:16px; color:#999; vertical-align:middle;">
+						5 mins (easy) - <a style="color:#999; text-decoration:none;" href="https://www.ably.io/">ably.io</a>
+						</td>
+					</tr>
+					</mj-table>
+				</mj-column>
+				<mj-column width="30px" padding="0 0 10px"></mj-column>
+				<mj-column width="253px">
+					<mj-text mj-class="title-h3">
+					<a style="color:#50B4F3; text-decoration:none;" href="http://link">Header</a>
+					</mj-text>
+					<mj-text mj-class="primary-text">
+					Pellentesque quis orci rutrum, vestibulum enim et, pretium quam. Nullam neque arcu, mollis quis tortor sed, consequat varius dolor.
+					</mj-text>
+					<mj-table css-class="pb-0" padding="0 0 20px">
+					<tr>
+						<td width="22" style="font-size:1px; line-height:1px; mso-line-height-rule:at-least;">
+						<img src="https://s3.amazonaws.com/files.ably.io/newsletter/MJML+Newsletter+%5BTemplate%5D/ico-clock.png" width="16" style="vertical-align:top;" alt="" />
+						</td>
+						<td style="font-size:12px; line-height:16px; color:#999; vertical-align:middle;">
+						5 mins (easy) - <a style="color:#999; text-decoration:none;" href="https://www.ably.io/">ably.io</a>
+						</td>
+					</tr>
+					</mj-table>
+				</mj-column>
+				</mj-section>
+		</mj-wrapper>
+		<!-- end mixed section two columns -->
+
+		<!-- start gray section  -->
+		<mj-wrapper padding="20px">
+			<!-- <mj-include path="../0-template/v1/components/gray-section-two-columns.mjml" /> -->
+			<mj-section css-class="columns-wrapper" mj-class="dark-wrapper">
+				<mj-column>
+					<mj-text mj-class="title-h2">
+					Gray section header
+					</mj-text>
+				</mj-column>
+				</mj-section>
+				<mj-section mj-class="dark-body">
+				<mj-column width="255px">
+					<mj-image mj-class="primary-img" href="http://link" src="https://s3.amazonaws.com/files.ably.io/newsletter/MJML+Newsletter+%5BTemplate%5D/img-06.png" />
+					<mj-text mj-class="title-h3">
+					<a style="color:#50B4F3; text-decoration:none;" href="http://link">Heading for this item goes here</a>
+					</mj-text>
+					<mj-text mj-class="primary-text">
+					Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eros justo, pulvinar ut vulputate quis, mattis at augue suspendisse.
+					</mj-text>
+				</mj-column>
+				<mj-column width="30px" padding="0 0 15px"></mj-column>
+				<mj-column width="255px">
+					<mj-image mj-class="primary-img" href="http://link" src="https://s3.amazonaws.com/files.ably.io/newsletter/MJML+Newsletter+%5BTemplate%5D/img-06.png" />
+					<mj-text mj-class="title-h3">
+					<a style="color:#50B4F3; text-decoration:none;" href="http://link">Heading for this item goes here</a>
+					</mj-text>
+					<mj-text mj-class="primary-text">
+					Morbi scelerisque felis vel ullamcorper viverra. In id ante quis quam iaculis ligula sodales auctor in a ante.
+					</mj-text>
+				</mj-column>
+				</mj-section>
+				<mj-section mj-class="dark-btn-holder">
+				<mj-column>
+					<mj-button css-class="primary-btn" mj-class="primary-btn" href="http://link">
+					Call to action
+					</mj-button>
+				</mj-column>
+			</mj-section>
+		</mj-wrapper>
+		<!-- end gray section  -->
+
+		<!-- start customers section -->
+		<mj-wrapper padding="20px">
+			<!-- <mj-include path="../0-template/v1/components/customers-section.mjml" /> -->
+			<mj-section css-class="section-border-top" mj-class="customers-top">
+				<mj-column>
+					<mj-text mj-class="customers-title">
+					Some new customers we’ve welcomed on board
+					</mj-text>
+				</mj-column>
+				</mj-section>
+				<mj-section css-class="section-border-bottom pt-4 pb-9 plr-20" mj-class="customers-bottom">
+				<mj-column css-class="pb-50" vertical-align="middle">
+					<mj-table>
+					<tr>
+						<td align="center">
+						<img src="https://s3.amazonaws.com/files.ably.io/newsletter/MJML+Newsletter+%5BTemplate%5D/logo-01.png" width="112" style="vertical-align:top;" alt="hubspot" />
+						</td>
+						<td align="center">
+						<img src="https://s3.amazonaws.com/files.ably.io/newsletter/MJML+Newsletter+%5BTemplate%5D/logo-02.png" width="120" style="vertical-align:top;" alt="vitac" />
+						</td>
+					</tr>
+					</mj-table>
+				</mj-column>
+				<mj-column vertical-align="middle">
+					<mj-table>
+					<tr>
+						<td width="12px"></td>
+						<td align="center">
+						<img src="https://s3.amazonaws.com/files.ably.io/newsletter/MJML+Newsletter+%5BTemplate%5D/logo-03.png" width="75" style="vertical-align:top;" alt="verbit" />
+						</td>
+						<td width="32px"></td>
+						<td align="center">
+						<img src="https://s3.amazonaws.com/files.ably.io/newsletter/MJML+Newsletter+%5BTemplate%5D/logo-04.png" width="107" style="vertical-align:top;" alt="Lightspeed system" />
+						</td>
+					</tr>
+					</mj-table>
+				</mj-column>
+			</mj-section>
+		</mj-wrapper>
+		<!-- end customers section -->
+
+		<!-- start feature update section -->
+		<mj-wrapper padding="20px">
+			<!-- <mj-include path="../0-template/v1/components/feature-update.mjml" /> -->
+			<mj-section>
+				<mj-column>
+					<mj-image mj-class="fullwidth-img" />
+				</mj-column>
+				</mj-section>
+				<mj-section css-class="columns-wrapper" mj-class="columns-wrapper">
+				<mj-column>
+					<mj-text mj-class="title-h2" align="center" padding="0 0 16px">
+					Feature / product update
+					</mj-text>
+					<mj-text mj-class="primary-text" align="center" padding="0 0 30px">
+					Pellentesque consequat elit eget tristique sagittis. Etiam et erat et lorem elementum commodo. Aenean congue diam a nibh accumsan tincidunt. Ut malesuada odio luctus libero pulvinar, et pharetra enim volutpat nulla facilisi.
+					</mj-text>
+					<mj-button css-class="primary-btn" mj-class="primary-btn" href="http://link">
+					Call to action
+					</mj-button>
+				</mj-column>
+			</mj-section>
+		</mj-wrapper>
+		<!-- end feature update section -->
+
+		<!-- start divider -->
+		<mj-section>
+			<mj-column padding="40px">
+			</mj-column>
+		</mj-section>
+		<!-- end divider -->
+
+		<!-- start footer -->
+		<mj-wrapper 
+			full-width="full-width"
+			background-color="#f1f1f1"
+			padding="28px 20px">
+			<mj-include path="../0-template/v1/components/footer.mjml" />
+		</mj-wrapper>
+		<!-- end footer -->
+	</mj-body>
+</mjml>

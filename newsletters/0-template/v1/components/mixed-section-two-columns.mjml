@@ -1,0 +1,39 @@
+<mj-section css-class="columns-wrapper" mj-class="columns-wrapper">
+  <mj-column width="253px">
+    <mj-text mj-class="title-h3">
+      <a style="color:#50B4F3; text-decoration:none;" href="http://link">Header</a>
+    </mj-text>
+    <mj-text mj-class="primary-text">
+      Pellentesque quis orci rutrum, vestibulum enim et, pretium quam. Nullam neque arcu, mollis quis tortor sed, consequat varius dolor.
+    </mj-text>
+    <mj-table padding="0 0 20px">
+      <tr>
+        <td width="22" style="font-size:1px; line-height:1px; mso-line-height-rule:at-least;">
+          <img src="https://s3.amazonaws.com/files.ably.io/newsletter/MJML+Newsletter+%5BTemplate%5D/ico-clock.png" width="16" style="vertical-align:top;" alt="" />
+        </td>
+        <td style="font-size:12px; line-height:16px; color:#999; vertical-align:middle;">
+          5 mins (easy) - <a style="color:#999; text-decoration:none;" href="https://www.ably.io/">ably.io</a>
+        </td>
+      </tr>
+    </mj-table>
+  </mj-column>
+  <mj-column width="30px" padding="0 0 10px"></mj-column>
+  <mj-column width="253px">
+    <mj-text mj-class="title-h3">
+      <a style="color:#50B4F3; text-decoration:none;" href="http://link">Header</a>
+    </mj-text>
+    <mj-text mj-class="primary-text">
+      Pellentesque quis orci rutrum, vestibulum enim et, pretium quam. Nullam neque arcu, mollis quis tortor sed, consequat varius dolor.
+    </mj-text>
+    <mj-table css-class="pb-0" padding="0 0 20px">
+      <tr>
+        <td width="22" style="font-size:1px; line-height:1px; mso-line-height-rule:at-least;">
+          <img src="https://s3.amazonaws.com/files.ably.io/newsletter/MJML+Newsletter+%5BTemplate%5D/ico-clock.png" width="16" style="vertical-align:top;" alt="" />
+        </td>
+        <td style="font-size:12px; line-height:16px; color:#999; vertical-align:middle;">
+          5 mins (easy) - <a style="color:#999; text-decoration:none;" href="https://www.ably.io/">ably.io</a>
+        </td>
+      </tr>
+    </mj-table>
+  </mj-column>
+</mj-section>

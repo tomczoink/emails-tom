@@ -1,0 +1,22 @@
+<mj-section css-class="header-wrapper" direction="rtl">
+  <mj-column css-class="header-holder" mj-class="header-right-side">
+    <mj-image css-class="logo-mobile" mj-class="header-logo" />
+    <mj-text css-class="text-mobile" mj-class="header-issue">
+      Issue
+      <p class="fs-32 m-0" style="font-size:40px; line-height:44px; letter-spacing:.25px; margin:4px 0;">
+        #14
+      </p>
+      <p style="font-weight:normal; color:#fff; margin:0;">
+        Jan 2019
+      </p>
+    </mj-text>
+  </mj-column>
+  <mj-column mj-class="header-left-side">
+    <mj-text css-class="fs-28 pb-16" mj-class="header-title">
+      What’s been happening this month&nbsp;at Ably
+    </mj-text>
+    <mj-text css-class="pb-7" mj-class="header-text">
+      Discover in-depth technical concepts that underpin realtime distribution, learn how to build faster with new tutorials, and meet our latest product, the Ably DSX.
+    </mj-text>
+  </mj-column>
+</mj-section>

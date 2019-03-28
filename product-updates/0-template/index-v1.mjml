@@ -1,0 +1,323 @@
+<mjml>
+  <mj-include path="../0-template/v1/styles/mj-head.mjml" />
+
+  <mj-body background-color="#f8f8f8">
+    
+    <!-- start hero section -->
+      <mj-wrapper mj-class="content-wrapper hero-image" background-url="https://files.ably.io/email/github-repo/product-updates/0-template/v1/assets/bg-01.jpg">
+        <!-- mj-include path="./components/hero.mjml" -->
+          <mj-section>
+            <mj-column>
+              <mj-image mj-class="hero-logo" />
+            </mj-column>
+          </mj-section>
+          <mj-section>
+            <mj-column>
+              <mj-spacer mj-class="spacer-lg" />
+            </mj-column>
+          </mj-section>
+          <mj-section css-class="plr-15" padding="0 30px">	
+            <mj-column css-class="plr-15" mj-class="hero-wrapper">
+              <mj-text css-class="fs-32" mj-class="hero-text">
+                Product or feature announcement headline
+              </mj-text>
+            </mj-column>
+          </mj-section>
+        <!-- /mj-include path="./components/hero.mjml" -->
+      </mj-wrapper>
+    <!-- end hero section -->
+
+    <!-- content -->
+      <mj-wrapper mj-class="content-wrapper bottom-border">
+
+        <!-- start intro section -->
+          <!-- mj-include path="./components/intro.mjml" -->
+            <mj-section css-class="plr-15" padding="0 30px">
+              <mj-column>
+                <mj-text css-class="tplr-0 fs-18" mj-class="intro-title">
+                  Pellentesque consequat elit eget tristique sagittis. Etiam et erat et lorem elementum commodo aenean congue diam.
+                </mj-text>
+                <mj-button css-class="primary-btn" mj-class="primary-btn" href="http://todo" width="280px">
+                  Call to action
+                </mj-button>
+                <mj-text mj-class="title-h2" padding="0 0 15px">
+                  Sub-title
+                </mj-text>
+                <mj-text mj-class="primary-text" padding="0 0 30px">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eros justo, pulvinar ut vulputate quis, mattis at augue. Suspendisse mauris turpis, gravida sodales facilisis et, pharetra ac magna. Ut cursus molestie vehicula. Fusce sed nisl id lectus scelerisque facilisis consectetur eget nisl. Morbi scelerisque felis vel ullamcorper viverra. In id ante quis quam sodales auctor in a ante.
+                </mj-text>
+                <!-- image size: width="880" height="508" -->
+                <mj-image mj-class="intro-img" />
+                <mj-text mj-class="primary-text">
+                  Fusce sed nisl id lectus scelerisque facilisis consectetur eget nisl. Morbi scelerisque felis vel ullamcorper viverra. In id ante quis quam sodales auctor in a ante. Maecenas faucibus, diam sit amet sollicitudin pellentesque, est nulla pellentesque sapien, quis dictum tellus ex ut felis. Ut pharetra neque non semper iaculis.
+                </mj-text>
+              </mj-column>
+            </mj-section>
+          <!-- /mj-include path="./components/intro.mjml" -->
+        <!-- end intro section -->
+
+        <!-- start divider -->
+          <!-- mj-include path="./components/divider.mjml" -->
+            <mj-section mj-class="divider-padding">
+              <mj-column>
+                <mj-divider mj-class="divider-body" />
+              </mj-column>
+            </mj-section>
+          <!-- /mj-include path="./components/divider.mjml" -->
+        <!-- end divider -->
+
+        <!-- start benefits heading section -->
+          <!-- mj-include path="./components/benefits-title.mjml" -->
+            <mj-section css-class="plr-15" padding="0 30px">
+              <mj-column>
+                <mj-text mj-class="title-h2" padding="0 0 42px">
+                  Benefits
+                </mj-text>
+              </mj-column>
+            </mj-section>
+          <!-- mj-include path="./components/benefits-title.mjml" -->
+				<!-- end benefits heading section -->
+        
+        <!-- start benefits body row 1 -->
+          <!-- mj-include path="./components/benefits-columns.mjml" -->
+            <mj-section css-class="plr-0" padding="0 15px">
+              <mj-column width="50%" padding="0 15px">
+                <!-- image size: width="320" height="240" -->
+                <mj-image mj-class="primary-img" href="http://link" src="https://files.ably.io/email/github-repo/product-updates/0-template/v1/assets/placeholder-02.png" />
+                <mj-text mj-class="title-h3">
+                  Header
+                </mj-text>
+                <mj-text mj-class="primary-text">
+                  Pellentesque quis orci rutrum, vestibulum enim et, pretium quam. Nullam neque arcu, mollis quis tortor sedasdasdsadolor.
+                </mj-text>
+              </mj-column>
+              <mj-column width="50%" padding="0 15px">
+                <!-- image size: width="320" height="240" -->
+                <mj-image mj-class="primary-img" href="http://link" src="https://files.ably.io/email/github-repo/product-updates/0-template/v1/assets/placeholder-02.png" />
+                <mj-text mj-class="title-h3">
+                  Header
+                </mj-text>
+                <mj-text mj-class="primary-text">
+                  Pellentesque quis orci rutrum, vestibulum enim et, pretium quam. Nullam neque arcu, mollis quis tortor sed, consequat varius dolor.
+                </mj-text>
+              </mj-column>
+            </mj-section>
+          <!-- /mj-include path="./components/benefits-columns.mjml" -->
+        <!-- end benefits body row 1 -->
+
+        <!-- start benefits body row 2-->
+          <!-- mj-include path="./components/benefits-columns.mjml" -->
+            <mj-section css-class="plr-0" padding="0 15px">
+              <mj-column width="50%" padding="0 15px">
+                <!-- image size: width="320" height="240" -->
+                <mj-image mj-class="primary-img" href="http://link" src="https://files.ably.io/email/github-repo/product-updates/0-template/v1/assets/placeholder-02.png" />
+                <mj-text mj-class="title-h3">
+                  Header
+                </mj-text>
+                <mj-text mj-class="primary-text">
+                  Pellentesque quis orci rutrum, vestibulum enim et, pretium quam. Nullam neque arcu, mollis quis tortor sedasdasdsadolor.
+                </mj-text>
+              </mj-column>
+              <mj-column width="50%" padding="0 15px">
+                <!-- image size: width="320" height="240" -->
+                <mj-image mj-class="primary-img" href="http://link" src="https://files.ably.io/email/github-repo/product-updates/0-template/v1/assets/placeholder-02.png" />
+                <mj-text mj-class="title-h3">
+                  Header
+                </mj-text>
+                <mj-text mj-class="primary-text">
+                  Pellentesque quis orci rutrum, vestibulum enim et, pretium quam. Nullam neque arcu, mollis quis tortor sed, consequat varius dolor.
+                </mj-text>
+              </mj-column>
+            </mj-section>
+          <!-- /mj-include path="./components/benefits-columns.mjml" -->
+        <!-- end benefits body row 2 -->
+
+        <!-- start divider -->
+          <!-- mj-include path="./components/divider.mjml" -->
+            <mj-section mj-class="divider-padding">
+              <mj-column>
+                <mj-divider mj-class="divider-body" />
+              </mj-column>
+            </mj-section>
+          <!-- /mj-include path="./components/divider.mjml" -->
+        <!-- end divider -->
+
+        <!-- start header section -->
+          <!-- mj-include path="./components/main.mjml" -->
+            <mj-section css-class="plr-15" padding="0 30px">
+              <mj-column>
+                <mj-text mj-class="title-h2" padding="0 0 28px">
+                  Header
+                </mj-text>
+                <!-- image size: width="800" height="320" -->
+                <mj-image mj-class="main-img" />
+                <mj-text mj-class="primary-text">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eros justo, pulvinar ut vulputate quis, mattis at augue. Suspendisse mauris turpis, gravida sodales facilisis et, pharetra ac magna. Ut cursus molestie vehicula. Fusce sed nisl id lectus scelerisque facilisis consectetur eget nisl. Morbi scelerisque felis vel ullamcorper viverra. In id ante quis quam sodales auctor in a ante.
+                </mj-text>
+                <mj-button css-class="primary-btn" mj-class="primary-btn" href="http://todo">
+                  Call to action
+                </mj-button>
+              </mj-column>
+            </mj-section>
+          <!-- /mj-include path="./components/main.mjml" -->
+        <!-- end header section -->
+
+        <!-- start divider -->
+          <!-- mj-include path="./components/divider.mjml" -->
+            <mj-section mj-class="divider-padding">
+              <mj-column>
+                <mj-divider mj-class="divider-body" />
+              </mj-column>
+            </mj-section>
+          <!-- /mj-include path="./components/divider.mjml" -->
+        <!-- end divider -->
+
+        <!-- start related resources A section heading -->
+          <!-- mj-include path="./components/related-resources-a-title.mjml" -->
+            <mj-section css-class="plr-15" padding="0 30px">
+              <mj-column>
+                <mj-text mj-class="title-h2" padding="0 0 42px">
+                  Related resources A
+                </mj-text>
+              </mj-column>
+            </mj-section>
+        <!-- end related resources A section heading -->
+          <!-- /mj-include path="./components/related-resources-a-title.mjml" -->
+          <!-- mj-include path="./components/related-resources-a-columns.mjml" -->
+        
+        <!-- start related resources A section body -->
+            <mj-section css-class="plr-0" padding="0 15px">
+              <mj-column width="50%" padding="0 15px">
+                <!-- image size: width="320" height="240" -->
+                <mj-image mj-class="primary-img" href="http://tod" src="https://files.ably.io/email/github-repo/product-updates/0-template/v1/assets/placeholder-02.png" />
+                <mj-text mj-class="title-h3" color="#50B4F3">
+                  <a style="color:#50B4F3; text-decoration:none;" href="http://todo">Header</a>
+                </mj-text>
+                <mj-text mj-class="primary-text">
+                  Pellentesque quis orci rutrum, <a style="color:#50B4F3; text-decoration:none;" href="http://todo">vestibulum</a> enim et, pretium quam. Nullam neque arcu, mollis quis tortor sed, consequat varius dolor
+                </mj-text>
+                <mj-button css-class="primary-btn" mj-class="primary-btn" href="http://todo">
+                  Read documentation
+                </mj-button>
+              </mj-column>
+              <mj-column width="50%" padding="0 15px">
+                <!-- image size: width="320" height="240" -->
+                <mj-image mj-class="primary-img" href="http://todo" src="https://files.ably.io/email/github-repo/product-updates/0-template/v1/assets/placeholder-02.png" />
+                <mj-text mj-class="title-h3" color="#50B4F3">
+                  <a style="color:#50B4F3; text-decoration:none;" href="http://todo">Header</a>
+                </mj-text>
+                <mj-text mj-class="primary-text">
+                  Pellentesque quis orci rutrum, vestibulum enim et, pretium quam. <a style="color:#50B4F3; text-decoration:none;" href="http://link">Nullam</a> neque arcu, mollis quis tortor sed, consequat varius dolor
+                </mj-text>
+                <mj-button css-class="primary-btn" mj-class="primary-btn" href="http://link">
+                  View tutorial
+                </mj-button>
+              </mj-column>
+            </mj-section>
+          <!-- /mj-include path="./components/related-resources-a-columns.mjml" -->
+        <!-- end related resources A section body-->
+
+        <!-- start divider -->
+          <!-- mj-include path="./components/divider.mjml" -->
+            <mj-section mj-class="divider-padding">
+              <mj-column>
+                <mj-divider mj-class="divider-body" />
+              </mj-column>
+            </mj-section>
+          <!-- /mj-include path="./components/divider.mjml" -->
+        <!-- end divider -->
+
+        <!-- start related resources B section part 1 -->
+          <!-- mj-include path="./components/related-resources-b-title.mjml" -->
+            <mj-section css-class="plr-15" padding="0 30px">
+              <mj-column>
+                <!-- image size: width="96" height="96" -->
+                <mj-image mj-class="resources-icon" />
+                <mj-text mj-class="title-h2" padding="0 0 17px">
+                  Related resources B
+                </mj-text>
+                <mj-text mj-class="primary-text">
+                  Pellentesque quis orci rutrum, vestibulum enim et, pretium quam. Nullam neque arcu, mollis quis tortor sed, consequat varius dolor
+                </mj-text>
+                <mj-button css-class="primary-btn" mj-class="primary-btn" href="http://todo" padding="0 0 43px">
+                  Read documentation
+                </mj-button>
+              </mj-column>
+            </mj-section>
+        <!-- end related resources B section part 1 -->
+          <!-- /mj-include path="./components/related-resources-b-title.mjml" -->
+          <!-- mj-include path="./components/related-resources-b-columns.mjml" -->
+        
+        <!-- start related resources B section part 2 -->
+            <mj-section css-class="plr-0" padding="0 15px">
+              <mj-column width="50%" padding="0 15px">
+                <mj-text mj-class="title-h3">
+                  Header
+                </mj-text>
+                <mj-text mj-class="primary-text" padding="0 0 7px">
+                  Pellentesque quis orci rutrum, vestibulum enim et, pretium quam. Nullam neque arcu, mollis quis tortor sed, consequat varius dolor
+                </mj-text>
+                <mj-text mj-class="primary-link">
+                  <a style="color:#50B4F3; text-decoration:none;" href="http://link">View tutorial</a>
+                </mj-text>
+              </mj-column>
+              <mj-column width="50%" padding="0 15px">
+                <mj-text mj-class="title-h3">
+                  Header
+                </mj-text>
+                <mj-text mj-class="primary-text" padding="0 0 7px">
+                  Pellentesque quis orci rutrum, vestibulum enim et, pretium quam. Nullam neque arcu, mollis quis tortor sed, consequat varius dolor
+                </mj-text>
+                <mj-text mj-class="primary-link">
+                  <a style="color:#50B4F3; text-decoration:none;" href="http://link">View tutorial</a>
+                </mj-text>
+              </mj-column>
+            </mj-section>
+          <!-- /mj-include path="./components/related-resources-b-columns.mjml" -->
+        <!-- end related resources B section part 2 -->
+
+      </mj-wrapper>
+    <!-- end content -->
+
+    <!-- start small spacer -->
+      <!-- mj-include path="./components/spacer-small.mjml" -->
+        <mj-section>
+          <mj-column>
+            <mj-spacer mj-class="spacer-sm" />
+          </mj-column>
+        </mj-section>
+      <!-- /mj-include path="./components/spacer-small.mjml" -->
+    <!-- end small spacer -->
+
+    <!-- start coming soon section -->
+      <!-- mj-include path="./components/coming.mjml" -->
+        <mj-section css-class="plr-15" mj-class="coming-wrapper">
+          <mj-column>
+            <mj-text mj-class="primary-text coming-title">
+              Coming soon!
+            </mj-text>
+            <mj-text mj-class="primary-text" padding="0">
+              Pellentesque quis orci rutrum, vestibulum enim et, pretium quam. Nullam neque arcu, mollis quis tortor sed, consequat varius dolor
+            </mj-text>
+          </mj-column>
+        </mj-section>
+      <!-- /mj-include path="./components/coming.mjml" -->
+    <!-- end coming soon section -->
+
+    <!-- start large spacer -->
+      <!-- mj-include path="./components/spacer-large.mjml" -->
+        <mj-section>
+          <mj-column>
+            <mj-spacer mj-class="spacer-md" />
+          </mj-column>
+        </mj-section>
+      <!-- /mj-include path="./components/spacer-large.mjml" -->
+    <!-- end large spacer -->
+
+    <!-- start footer -->
+      <mj-wrapper full-width="full-width" background-color="#f1f1f1" padding="60px 0">
+        <mj-include path="../0-template/v1/components/footer.mjml" />
+      </mj-wrapper>
+    <!-- end footer -->
+  </mj-body>
+</mjml>

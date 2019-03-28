@@ -1,0 +1,395 @@
+<mjml>
+	<mj-head>
+		<mj-title>ably</mj-title>
+		<mj-attributes>
+			<mj-all padding="0" font-family="Arial, Helvetica, sans-serif" />
+			<mj-button inner-padding="0" />
+		</mj-attributes>
+		<mj-style inline="inline">
+			.btn-01 td {
+				overflow:hidden;
+				mso-padding-alt: 13px 15px 14px;
+			}
+			.btn-01 a {
+				display: block;
+				padding: 13px 15px 14px;
+			}
+			.wrapper-hero{
+				border-radius:3px 3px 0 0;
+				overflow:hidden;
+			}
+			.wrapper-content{
+				border-radius:0 0 4px 4px;
+				overflow:hidden;
+			}
+		</mj-style>
+		<mj-breakpoint width="617px" />
+		<mj-style>
+		@media all and (max-width: 617px) {
+			.fs-32 > div{
+				font-size: 32px !important;
+				line-height: 36px !important;
+			}
+
+			.fs-18 > div{
+				font-size: 18px !important;
+				line-height: 24px !important;
+			}
+
+			.plr-0 > table > tbody > tr > td{
+				padding-left:0 !important; padding-right:0 !important;
+			}
+
+			.plr-15 > table > tbody > tr > td{
+				padding-left:15px !important; padding-right:15px !important;
+			}
+
+			.tplr-0{
+				padding-left:0 !important; padding-right:0 !important;
+			}
+
+			.ta-l {
+				text-align:left !important;
+			}
+
+			.ta-l div {
+				text-align:left !important;
+			}
+		}
+		</mj-style>
+	</mj-head>
+	<mj-body background-color="#f8f8f8">
+		<!-- hero -->
+		<!-- bg image size: width="598" height="400" -->
+		<mj-wrapper css-class="wrapper-hero" background-url="https://s3.amazonaws.com/files.ably.io/newsletter/Christmas+Special+-+Dec+'18/head.jpg"
+					background-repeat="no-repeat"
+					background-color="#fff"
+					border-top="1px solid #F1F1F1"
+					border-left="1px solid #F1F1F1"
+					border-right="1px solid #F1F1F1">
+			<mj-section>
+				<mj-column>
+					<mj-spacer height="200px" />
+				</mj-column>
+			</mj-section>
+			<mj-section css-class="plr-15" padding="0 30px">
+				<mj-column css-class="plr-15"
+						   background-color="#fff"
+						   padding="30px 30px 0"
+						   border-radius="4px 4px 0 0">
+					<mj-text css-class="fs-32"
+							 align="center"
+							 font-size="48px"
+							 line-height="53px"
+							 font-weight="bold"
+							 color="#333">
+						Announcing the Open Data Streaming Program
+					</mj-text>
+				</mj-column>
+			</mj-section>
+		</mj-wrapper>
+		<!-- end hero -->
+		<!-- content -->
+		<mj-wrapper css-class="wrapper-content" background-color="#fff"
+					border-bottom="1px solid #F1F1F1"
+					border-left="1px solid #F1F1F1"
+					border-right="1px solid #F1F1F1">
+			<!-- section -->
+			<mj-section css-class="plr-15" padding="0 30px">
+				<mj-column>
+					<mj-text css-class="tplr-0 fs-18"
+							 padding="30px 30px 38px"
+							 align="center"
+							 font-size="24px"
+							 line-height="30px"
+							 color="#ED760A">
+						We're giving back to the community and enabling data producers to distribute open streaming data for free on Ably’s Data Stream Exchange (DSX) platform
+					</mj-text>
+					<mj-button css-class="btn-01"
+							   href="https://blog.ably.io/announcing-ablys-open-data-streaming-program-817da3c1c4d1"
+							   width="280px"
+							   font-size="14px"
+							   line-height="16px"
+							   color="#fff"
+							   font-weight="bold"
+							   background-color="#50B4F3"
+							   border-radius="2px"
+							   padding="0 0 38px">
+						Read our blog announcement
+					</mj-button>
+
+					<mj-text padding="0 0 30px"
+							 align="left"
+							 font-size="14px"
+							 line-height="20px"
+							 color="#555"
+							 letter-spacing="-0.2px">
+						The Open Data Streaming Program aims to liberate the many sources of realtime data around the world. Collaboration in the developer community already produces amazing results, and by providing a platform for open streaming data, we hope to unleash even greater levels of innovation and collaboration.
+					</mj-text>
+					<!-- image size: width="880" height="508" -->
+					<mj-image width="440px"
+							  src="https://s3.amazonaws.com/files.ably.io/newsletter/Christmas+Special+-+Dec+'18/dsx.png"
+							  padding="0 0 30px"
+							  align="center"
+							  alt="Data Stream Exchange"
+							  href="https://www.ably.io/dsx" />
+					<mj-text padding="0 0 0px"
+							 align="left"
+							 font-size="14px"
+							 line-height="20px"
+							 color="#555"
+							 letter-spacing="-0.2px">
+						If you produce open streaming data, the Program empowers you to:
+            </mj-text>
+            <mj-text padding="0 0 28px"
+							 align="left"
+							 font-size="14px"
+							 line-height="20px"
+							 color="#555"
+							 letter-spacing="-0.2px">
+            <ul>
+              <li>
+                Publish your data, without needing to think about infrastructure, protocols, APIs or how many consumers there might be
+              </li>
+              <li>
+                Push this realtime data to any number of consumers as soon as it becomes available, using the consumer’s chosen means of delivery
+              </li>
+            </ul>
+					</mj-text>
+					<mj-text padding="0 0 30px"
+							 align="left"
+							 font-size="14px"
+							 line-height="20px"
+							 color="#555"
+							 letter-spacing="-0.2px">
+						Do you want to make your open realtime data available freely? Or would you like to use one of the open realtime streams that are available now, including transport, weather, sport and financial data?
+						<a style="color:#50B4F3; text-decoration:none;" href="https://blog.ably.io/announcing-ablys-open-data-streaming-program-817da3c1c4d1">Find out more about the Open Data Streaming Program</a>.
+					</mj-text>
+				</mj-column>
+			</mj-section>
+			<!-- end section -->
+		</mj-wrapper>
+		<!-- end content -->
+		<!-- spacer -->
+		<mj-section>
+			<mj-column>
+				<mj-spacer height="20px" />
+			</mj-column>
+		</mj-section>
+		<!-- end spacer -->
+				<!-- content -->
+		<mj-wrapper css-class="wrapper-content" background-color="#fff"
+					border-bottom="1px solid #F1F1F1"
+					border-left="1px solid #F1F1F1"
+					border-right="1px solid #F1F1F1">
+			<!-- section -->
+			<!-- section -->
+			<mj-section css-class="plr-15" padding="0 30px">
+				<mj-column>
+					<mj-text padding="28px 0 28px"
+							 align="center"
+							 font-size="24px"
+							 line-height="30px"
+							 color="#333"
+							 font-weight="bold">
+						The Ably Hub: The home of open streaming data
+					</mj-text>
+					<!-- image size: width="800" height="320" -->
+					<mj-image width="400px"
+							  src="https://s3.amazonaws.com/files.ably.io/newsletter/Christmas+Special+-+Dec+'18/AblyHubEmail.png"
+							  padding="0 0 32px"
+							  align="center"
+							  href="https://www.ably.io/hub" /></a>
+					<mj-text padding="0 0 28px"
+							 align="left"
+							 font-size="14px"
+							 line-height="20px"
+							 color="#555"
+							 letter-spacing="-0.2px">
+						The Ably Hub is our app-store-like portal for realtime data streams. It makes it easy for developers and other data consumers to find realtime data and build innovative applications around it. All data hosted with Ably via the Open Data Streaming Program will be available for free via The Ably Hub, alongside other commercial datasets.
+						</mj-text>
+					<mj-text padding="0 0 0px"
+							 align="left"
+							 font-size="14px"
+							 line-height="20px"
+							 color="#555"
+							 letter-spacing="-0.2px">
+					  There’s already a broad range of streaming data available on the <a style="color:#50B4F3; text-decoration:none;" href="https://www.ably.io/hub">Ably Hub</a>, including:
+					</mj-text>
+					<mj-text padding="0 0 28px"
+							 align="left"
+							 font-size="14px"
+							 line-height="20px"
+							 color="#555"
+							 letter-spacing="-0.2px">
+            <ul>
+              <li>
+               London transport information from Transport for London
+              </li>
+              <li>
+                Betting stats from public sports betting markets, and a range of other sports data
+              </li>
+              <li>
+                Predictions from PredictIt
+              </li>
+              <li>
+                News articles from HackerNews and Reddit
+              </li>
+              <li>
+                Bitcoin price and information from Coinbase and BitFlyer
+              </li>
+              <li>
+                Financial information from IEX Trading
+              </li>
+              <li>
+                Weather data from Open Weather Map
+              </li>
+            </ul>
+            And we're adding new sources all the time. Please <a style="color:#50B4F3; text-decoration:none;" href="https://www.ably.io/contact">get in touch if you want to suggest a new source</a>.
+					</mj-text>
+
+					<mj-button css-class="btn-01"
+							   href="https://www.ably.io/hub"
+							   width="245px"
+							   font-size="14px"
+							   line-height="16px"
+							   color="#fff"
+							   font-weight="bold"
+							   background-color="#50B4F3"
+							   border-radius="2px"
+							   padding="0 0 40px">
+						Explore the Ably Hub
+					</mj-button>
+				</mj-column>
+			</mj-section>
+			<!-- end section -->
+		</mj-wrapper>
+		<mj-section>
+			<mj-column>
+				<mj-spacer height="20px" />
+			</mj-column>
+		</mj-section>
+		<!-- gray section -->
+		<mj-section css-class="plr-15"
+					padding="32px 30px 28px"
+					background-color="#ebebeb"
+					border-radius="4px">
+			<mj-column>
+				<mj-text padding="0 0 5px"
+						 align="center"
+						 font-size="14px"
+						 line-height="20px"
+						 color="#555"
+						 font-weight="bold">
+					Coming soon!
+				</mj-text>
+				<mj-text align="center"
+						 font-size="14px"
+						 line-height="20px"
+						 color="#555">
+					Next month, we're launching the <a style="color:#50B4F3; text-decoration:none;" href="https://www.ably.io/dsx">Data Stream Exchange</a>, and will also be releasing version 1.1 of all our client library SDKs.
+				</mj-text>
+			</mj-column>
+		</mj-section>
+		<!-- end gray section -->
+		<!-- spacer -->
+		<mj-section>
+			<mj-column>
+				<mj-spacer height="100px" />
+			</mj-column>
+		</mj-section>
+		<!-- end spacer -->
+		<!-- footer -->
+		<mj-wrapper full-width="full-width"
+					background-color="#f1f1f1"
+					padding="60px 0">
+			<!-- two columns -->
+			<mj-section css-class="plr-15" padding="0 0 10px">
+				<mj-column width="385">
+					<mj-text padding="0 0 15px"
+							 align="left"
+							 font-size="14px"
+							 line-height="20px"
+							 color="#50B4F3">
+						<a style="color:#50B4F3; text-decoration:none;" href="<%asm_group_unsubscribe_raw_url%>">Unsubscribe from our product updates</a>
+					</mj-text>
+					<mj-text padding="0 0 20px"
+							 align="left"
+							 font-size="14px"
+							 line-height="20px"
+							 color="#333"
+							 font-weight="bold">
+						Follow us
+					</mj-text>
+					<!-- social -->
+					<mj-social icon-size="44px"
+							   inner-padding="0 15px 0 0"
+							   align="left"
+							   padding="0 0 30px"
+							   mode="horizontal">
+						<!-- social image size: width="88" height="88" -->
+						<mj-social-element name="twitter"
+										   href="https://twitter.com/ablyrealtime"
+										   src="https://s3.amazonaws.com/files.ably.io/newsletter/ChannelMetadataEmail+-+Dec+'18/ico-twitter.png"
+										   background-color="transparent"></mj-social-element>
+						<!-- social image size: width="88" height="88" -->
+						<mj-social-element name="facebook"
+										   href="https://www.facebook.com/ablyrealtime/"
+										   src="https://s3.amazonaws.com/files.ably.io/newsletter/ChannelMetadataEmail+-+Dec+'18/ico-facebook.png"
+										   background-color="transparent"></mj-social-element>
+						<!-- social image size: width="88" height="88" -->
+						<mj-social-element name="linkedin"
+										   href="https://www.linkedin.com/company/ably---real-time-messaging/"
+										   src="https://s3.amazonaws.com/files.ably.io/newsletter/ChannelMetadataEmail+-+Dec+'18/ico-linkedin.png"
+										   background-color="transparent"></mj-social-element>
+					</mj-social>
+				</mj-column>
+				<mj-column width="215">
+					<!-- image size: width="240" height="96" -->
+					<mj-image width="120px"
+							  align="left"
+							  alt="ably"
+							  href="http://www.ably.io"
+							  src="https://s3.amazonaws.com/files.ably.io/newsletter/ChannelMetadataEmail+-+Dec+'18/logo-02.png" />
+					<mj-text padding="3px 0 10px 54px"
+							 align="left"
+							 font-size="16px"
+							 line-height="20px"
+							 color="#333">
+						Simply better realtime
+					</mj-text>
+					<mj-text padding="0 0 20px 54px"
+							 align="left"
+							 font-size="14px"
+							 line-height="20px"
+							 color="#50B4F3">
+						<a style="color:#50B4F3; text-decoration:none;" href="http://www.ably.io">www.ably.io</a>
+					</mj-text>
+				</mj-column>
+				<mj-column width="94"></mj-column>
+			</mj-section>
+			<!-- end two columns -->
+			<!-- devider -->
+			<mj-section padding="0 0 23px">
+				<mj-column>
+					<mj-divider border-width="1px" border-style="solid" border-color="#dbdbdb" />
+				</mj-column>
+			</mj-section>
+			<!-- end devider -->
+			<!-- text -->
+			<mj-section css-class="plr-15">
+				<mj-column>
+					<mj-text align="left"
+							 font-size="12px"
+							 line-height="18px"
+							 color="#999">
+						<b>Ably Realtime</b><br/>
+						Atrium Labs, Unit 2.22, Camden Market, NW1 8AB, United Kingdom
+					</mj-text>
+				</mj-column>
+			</mj-section>
+			<!-- end text -->
+		</mj-wrapper>
+		<!-- end footer -->
+	</mj-body>
+</mjml>

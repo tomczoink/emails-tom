@@ -1,0 +1,35 @@
+<mj-section css-class="columns-wrapper" mj-class="dark-wrapper">
+  <mj-column>
+    <mj-text mj-class="title-h2">
+      Gray section header
+    </mj-text>
+  </mj-column>
+</mj-section>
+<mj-section mj-class="dark-body">
+  <mj-column width="255px">
+    <mj-image mj-class="primary-img" href="http://link" src="https://s3.amazonaws.com/files.ably.io/newsletter/MJML+Newsletter+%5BTemplate%5D/img-06.png" />
+    <mj-text mj-class="title-h3">
+      <a style="color:#50B4F3; text-decoration:none;" href="http://link">Heading for this item goes here</a>
+    </mj-text>
+    <mj-text mj-class="primary-text">
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eros justo, pulvinar ut vulputate quis, mattis at augue suspendisse.
+    </mj-text>
+  </mj-column>
+  <mj-column width="30px" padding="0 0 15px"></mj-column>
+  <mj-column width="255px">
+    <mj-image mj-class="primary-img" href="http://link" src="https://s3.amazonaws.com/files.ably.io/newsletter/MJML+Newsletter+%5BTemplate%5D/img-06.png" />
+    <mj-text mj-class="title-h3">
+      <a style="color:#50B4F3; text-decoration:none;" href="http://link">Heading for this item goes here</a>
+    </mj-text>
+    <mj-text mj-class="primary-text">
+      Morbi scelerisque felis vel ullamcorper viverra. In id ante quis quam iaculis ligula sodales auctor in a ante.
+    </mj-text>
+  </mj-column>
+</mj-section>
+<mj-section mj-class="dark-btn-holder">
+  <mj-column>
+    <mj-button css-class="primary-btn" mj-class="primary-btn" href="http://link">
+      Call to action
+    </mj-button>
+  </mj-column>
+</mj-section>

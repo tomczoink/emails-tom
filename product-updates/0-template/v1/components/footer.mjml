@@ -1,0 +1,51 @@
+<!-- two columns -->
+<mj-section css-class="plr-15">
+  <mj-column width="385px">
+    <mj-text mj-class="secondary-link" padding="0 0 15px">
+      <a style="color:#50B4F3; text-decoration:none;" href="<%asm_group_unsubscribe_raw_url%>">Unsubscribe from newsletters</a>
+    </mj-text>
+    <mj-text mj-class="primary-text" padding="0 0 13px" align="left" font-weight="bold">
+      Follow us
+    </mj-text>
+    <!-- social -->
+    <mj-social mj-class="footer-social">
+      <mj-social-element name="twitter-noshare" href="https://twitter.com/ablyrealtime" src="https://files.ably.io/email/github-repo/product-updates/0-template/v1/assets/ico-twitter.png">
+      </mj-social-element>
+      <mj-social-element name="facebook-noshare" href="https://www.facebook.com/ablyrealtime/" src="https://files.ably.io/email/github-repo/product-updates/0-template/v1/assets/ico-facebook.png">
+      </mj-social-element>
+      <mj-social-element name="linkedin-noshare" href="https://www.linkedin.com/company/ably---real-time-messaging/" src="https://files.ably.io/email/github-repo/product-updates/0-template/v1/assets/ico-linkedin.png">
+      </mj-social-element>
+    </mj-social>
+    <mj-text css-class="pb-30" mj-class="secondary-link" padding="0 0 22px">
+      <a style="color:#50B4F3; text-decoration:none;" href="[Weblink]">View in browser</a>
+    </mj-text>
+  </mj-column>
+  <mj-column width="215px">
+    <mj-image mj-class="footer-logo" />
+    <mj-text mj-class="footer-text" padding="3px 0 10px 54px">
+      Simply better realtime
+    </mj-text>
+    <mj-text mj-class="secondary-link" padding="0 0 20px 54px">
+      <a style="color:#50B4F3; text-decoration:none;" href="https://www.ably.io">www.ably.io</a>
+    </mj-text>
+  </mj-column>
+  <mj-column width="94px"></mj-column>
+</mj-section>
+<!-- end two columns -->
+<!-- divider -->
+<mj-section padding="0 0 23px">
+  <mj-column>
+    <mj-divider border-width="1px" border-style="solid" border-color="#dbdbdb" />
+  </mj-column>
+</mj-section>
+<!-- end divider -->
+<!-- text -->
+<mj-section css-class="plr-15">
+  <mj-column>
+    <mj-text mj-class="footer-copy">
+      <b>Ably Realtime</b><br />
+      Atrium Labs, Unit 2.22, Camden Market, NW1 8AB, United Kingdom
+    </mj-text>
+  </mj-column>
+</mj-section>
+<!-- end text -->

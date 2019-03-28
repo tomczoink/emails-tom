@@ -1,0 +1,450 @@
+<mjml>
+	<mj-head>
+		<mj-title>ably</mj-title>
+		<mj-attributes>
+			<mj-all padding="0" font-family="Arial, Helvetica, sans-serif" />
+			<mj-button inner-padding="0" />
+		</mj-attributes>
+		<mj-style inline="inline">
+			.btn-01 td{
+				overflow:hidden;
+				mso-padding-alt: 13px 15px 14px;
+			}
+			.btn-01 a {
+				display: block;
+				padding: 13px 15px 14px;
+			}
+			.wrapper-hero{
+				border-radius:3px 3px 0 0;
+				overflow:hidden;
+			}
+			.wrapper-content{
+				border-radius:0 0 4px 4px;
+				overflow:hidden;
+			}
+		</mj-style>
+		<mj-breakpoint width="617px" />
+		<mj-style>
+		@media all and (max-width: 617px) {
+			.fs-32 > div{
+				font-size: 32px !important;
+				line-height: 36px !important;
+			}
+
+			.fs-18 > div{
+				font-size: 18px !important;
+				line-height: 24px !important;
+			}
+
+			.plr-0 > table > tbody > tr > td{
+				padding-left:0 !important; padding-right:0 !important;
+			}
+
+			.plr-15 > table > tbody > tr > td{
+				padding-left:15px !important; padding-right:15px !important;
+			}
+
+			.tplr-0{
+				padding-left:0 !important; padding-right:0 !important;
+			}
+
+			.ta-l {
+				text-align:left !important;
+			}
+
+			.ta-l div {
+				text-align:left !important;
+			}
+		}
+		</mj-style>
+	</mj-head>
+	<mj-body background-color="#f8f8f8">
+		<!-- hero -->
+		<!-- bg image size: width="598" height="400" -->
+		<mj-wrapper css-class="wrapper-hero" background-url="https://i.imgur.com/RMsGbvS.jpg"
+					background-repeat="no-repeat"
+					background-color="#fff"
+					border-top="1px solid #F1F1F1"
+					border-left="1px solid #F1F1F1"
+					border-right="1px solid #F1F1F1">
+			<mj-section>
+				<mj-column>
+					<!-- image size: width="160" height="100" -->
+					<mj-image width="160px"
+							  align="right"
+							  alt="ably"
+							  href="https://www.ably.io"
+							  src="https://s3.amazonaws.com/files.ably.io/newsletter/ChannelMetadataEmail+-+Dec+'18/logo-grey.png" />
+				</mj-column>
+			</mj-section>
+			<mj-section>
+				<mj-column>
+					<mj-spacer height="200px" />
+				</mj-column>
+			</mj-section>
+			<mj-section css-class="plr-15" padding="0 30px">
+				<mj-column css-class="plr-15"
+						   background-color="#fff"
+						   padding="30px 30px 0"
+						   border-radius="4px 4px 0 0">
+					<mj-text css-class="fs-32"
+							 align="center"
+							 font-size="48px"
+							 line-height="53px"
+							 font-weight="bold"
+							 color="#333">
+						Introducing the Channel Metadata API
+					</mj-text>
+				</mj-column>
+			</mj-section>
+		</mj-wrapper>
+		<!-- end hero -->
+		<!-- content -->
+		<mj-wrapper css-class="wrapper-content" background-color="#fff"
+					border-bottom="1px solid #F1F1F1"
+					border-left="1px solid #F1F1F1"
+					border-right="1px solid #F1F1F1">
+			<!-- section -->
+			<mj-section css-class="plr-15" padding="0 30px">
+				<mj-column>
+					<mj-text css-class="tplr-0 fs-18"
+							 padding="30px 30px 38px"
+							 align="center"
+							 font-size="24px"
+							 line-height="30px"
+							 color="#ED760A">
+						Useful stats about your channels, including channel lifecycle state changes, occupancy changes or a list of active channels
+					</mj-text>
+					<mj-button css-class="btn-01"
+							   href="https://blog.ably.io/announcing-our-new-channel-metadata-api-ac5b5e25eab5"
+							   width="280px"
+							   font-size="14px"
+							   line-height="16px"
+							   color="#fff"
+							   font-weight="bold"
+							   background-color="#50B4F3"
+							   border-radius="2px"
+							   padding="0 0 38px">
+						View blog post
+					</mj-button>
+					
+					<mj-text padding="0 0 30px"
+							 align="center"
+							 font-size="14px"
+							 line-height="20px"
+							 color="#555"
+							 letter-spacing="-0.2px">
+						The new Channel Metadata API gives you access to insights related to your channels. Use the realtime library or Reactor to subscribe to channel lifecycle state-change events or channel occupancy updates. Alternatively, the REST subset of this API, called the Channel Status API, enables you to request the status of a channel or to list all the active channels within an app.
+					</mj-text>
+					<!-- image size: width="880" height="508" -->
+					<mj-image width="440px"
+							  src="https://s3.amazonaws.com/files.ably.io/newsletter/ChannelMetadataEmail+-+Dec+'18/placeholder-01+copy.png"
+							  padding="0 0 30px"
+							  align="center"
+							  alt="metadata illustration" />
+					<mj-text padding="0 0 28px"
+							 align="center"
+							 font-size="14px"
+							 line-height="20px"
+							 color="#555"
+							 letter-spacing="-0.2px">
+						This API offers a flexible way to be notified when there are channel state or occupancy changes. This is especially useful if you want to, for example, keep track of the number of subscribers on a channel without using the presence feature, or to optimize what you publish to the Ably system by only publishing on channels where subscribers exist. 
+					</mj-text>
+				</mj-column>
+			</mj-section>
+			<!-- end section -->
+			</mj-wrapper>
+					<!-- spacer -->
+		<mj-section>
+			<mj-column>
+				<mj-spacer height="20px" />
+			</mj-column>
+		</mj-section>
+		<!-- end spacer -->
+		<mj-wrapper ss-class="wrapper-content" background-color="#fff"
+					border-bottom="1px solid #F1F1F1"
+					border-left="1px solid #F1F1F1"
+					border-right="1px solid #F1F1F1">
+			<!-- section -->
+			<mj-section css-class="plr-15" padding="30px 30px">
+				<mj-column>
+					<!-- image size: width="96" height="96" -->
+					<mj-image width="48px"
+							  src="https://s3.amazonaws.com/files.ably.io/newsletter/ChannelMetadataEmail+-+Dec+'18/ico-01.png"
+							  padding="0 0 18px"
+							  align="center"
+							  alt="docs icon" />
+					<mj-text padding="0 0 17px"
+							 align="center"
+							 font-size="24px"
+							 line-height="30px"
+							 color="#333"
+							 font-weight="bold">
+						Get started now
+					</mj-text>
+					<mj-text padding="0 0 28px"
+							 align="center"
+							 font-size="14px"
+							 line-height="20px"
+							 color="#555"
+							 letter-spacing="-0.2px">
+						Jump into the documentation to understand how you can subscribe to the various metadata updates in your apps. The <a style="color:#75ACED; text-decoration:none;" href="https://www.ably.io/documentation/rest/channel-status">Channel Status API docs</a> explain how to request this metadata and enumerate (list) active channels in your app via the REST endpoint.
+					</mj-text>
+					<mj-button css-class="btn-01"
+							   href="https://www.ably.io/documentation/realtime/channel-metadata"
+							   width="245px"
+							   font-size="14px"
+							   line-height="16px"
+							   color="#fff"
+							   font-weight="bold"
+							   background-color="#50B4F3"
+							   border-radius="2px"
+							   padding="0 0 30px">
+						Read the docs
+					</mj-button>
+				</mj-column>
+			</mj-section>
+			<!-- end section -->
+			
+			<!-- section -->
+			<mj-section css-class="plr-0" padding="0 15px">
+			  <mj-column width="50%"
+						   padding="0 15px">
+					<mj-text padding="0 0 9px"
+							 align="center"
+							 font-size="16px"
+							 line-height="22px"
+							 color="#333"
+							 font-weight="bold">
+						Quickbit: Channel Metadata API
+					</mj-text>
+					<mj-text padding="0 0 7px"
+							 align="center"
+							 font-size="14px"
+							 line-height="20px"
+							 color="#555">
+						A super quick screencast explaining this API and what you can use it for
+					</mj-text>
+					<mj-text padding="0 0 38px"
+							 align="center"
+							 font-size="14px"
+							 line-height="20px"
+							 font-weight="bold"
+							 color="#75ACED">
+						<a style="color:#75ACED; text-decoration:none;" href="https://www.youtube.com/watch?v=3YSxCEGddVU&t=0s&list=PLv7MaB8onr7krKzzwswsLYFsB_KmgEu44&index=4">See video</a>
+					</mj-text>
+				</mj-column>
+				<mj-column width="50%"
+						   padding="0 15px">
+					<mj-text padding="0 0 9px"
+							 align="center"
+							 font-size="16px"
+							 line-height="22px"
+							 color="#333"
+							 font-weight="bold">
+						Tutorial: Channel lifecycle events
+					</mj-text>
+					<mj-text padding="0 0 7px"
+							 align="center"
+							 font-size="14px"
+							 line-height="20px"
+							 color="#555">
+						Subscribe to a channel’s lifecycle state changes using the realtime library
+					</mj-text>
+					<mj-text padding="0 0 38px"
+							 align="center"
+							 font-size="14px"
+							 line-height="20px"
+							 font-weight="bold"
+							 color="#75ACED">
+						<a style="color:#75ACED; text-decoration:none;" href="https://www.ably.io/tutorials/channel-lifecycle-events">View tutorial</a>
+					</mj-text>
+				</mj-column>
+				<mj-column width="50%"
+						   padding="0 15px">
+					<mj-text padding="0 0 9px"
+							 align="center"
+							 font-size="16px"
+							 line-height="22px"
+							 color="#333"
+							 font-weight="bold">
+						Tutorial: Channel occupancy events
+					</mj-text>
+					<mj-text padding="0 0 7px"
+							 align="center"
+							 font-size="14px"
+							 line-height="20px"
+							 color="#555">
+						Subscribe to a channel’s occupancy changes using the realtime library
+					</mj-text>
+					<mj-text padding="0 0 38px"
+							 align="center"
+							 font-size="14px"
+							 line-height="20px"
+							 font-weight="bold"
+							 color="#75ACED">
+						<a style="color:#75ACED; text-decoration:none;" href="https://www.ably.io/tutorials/channel-occupancy-events">View tutorial</a>
+					</mj-text>
+				</mj-column>
+				<mj-column width="50%"
+						   padding="0 15px">
+					<mj-text padding="0 0 9px"
+							 align="center"
+							 font-size="16px"
+							 line-height="22px"
+							 color="#333"
+							 font-weight="bold">
+						Tutorial: Channel enumeration
+					</mj-text>
+					<mj-text padding="0 0 7px"
+							 align="center"
+							 font-size="14px"
+							 line-height="20px"
+							 color="#555">
+						Implement a request to list the active channels in an app using the REST library
+					</mj-text>
+					<mj-text padding="0 0 38px"
+							 align="center"
+							 font-size="14px"
+							 line-height="20px"
+							 font-weight="bold"
+							 color="#75ACED">
+						<a style="color:#75ACED; text-decoration:none;" href="https://www.ably.io/tutorials/channel-enumeration-rest">View tutorial</a>
+					</mj-text>
+				</mj-column>
+				
+			</mj-section>
+			<!-- end section -->
+		</mj-wrapper>
+		<!-- end content -->
+		<!-- spacer -->
+		<mj-section>
+			<mj-column>
+				<mj-spacer height="20px" />
+			</mj-column>
+		</mj-section>
+		<!-- end spacer -->
+		<!-- gray section -->
+		<mj-section css-class="plr-15"
+					padding="32px 30px 28px"
+					background-color="#ebebeb"
+					border-radius="4px">
+			<mj-column>
+				<mj-text padding="0 0 5px"
+						 align="center"
+						 font-size="14px"
+						 line-height="20px"
+						 color="#555"
+						 font-weight="bold">
+					Coming soon!
+				</mj-text>
+				<mj-text align="center"
+						 font-size="14px"
+						 line-height="20px"
+						 color="#555">
+				  We are launching our <a style="color:#75ACED; text-decoration:none;" href="https://www.ably.io/dsx">Data Stream Exchange</a> platform which lets you stream your data seamlessly to other businesses. <a style="color:#75ACED; text-decoration:none;" href="mailto:support@ably.io">Get in touch for early access</a>.
+				</mj-text>
+			</mj-column>
+		</mj-section>
+		<!-- end gray section -->
+		<!-- spacer -->
+		<mj-section>
+			<mj-column>
+				<mj-spacer height="20px" />
+			</mj-column>
+		</mj-section>
+		<!-- end spacer -->
+		<!-- footer -->
+		<mj-wrapper full-width="full-width"
+					background-color="#f1f1f1"
+					padding="60px 0">
+			<!-- two columns -->
+			<mj-section css-class="plr-15" padding="0 0 10px">
+				<mj-column width="385">
+					<mj-text padding="0 0 15px"
+							 align="left"
+							 font-size="14px"
+							 line-height="20px"
+							 color="#50B4F3">
+						<a style="color:#50B4F3; text-decoration:none;" href="[Unsubscribe]">Unsubscribe from newsletters</a>
+					</mj-text>
+					<mj-text padding="0 0 20px"
+							 align="left"
+							 font-size="14px"
+							 line-height="20px"
+							 color="#333"
+							 font-weight="bold">
+						Follow us
+					</mj-text>
+					<!-- social -->
+					<mj-social icon-size="44px" 
+							   inner-padding="0 15px 0 0"
+							   align="left"
+							   padding="0 0 30px"
+							   mode="horizontal">
+						<!-- social image size: width="88" height="88" -->
+						<mj-social-element name="twitter"
+										   href="http://link"
+										   src="https://s3.amazonaws.com/files.ably.io/newsletter/ChannelMetadataEmail+-+Dec+'18/ico-twitter.png"
+										   background-color="transparent"></mj-social-element>
+						<!-- social image size: width="88" height="88" -->
+						<mj-social-element name="facebook"
+										   href="http://link"
+										   src="https://s3.amazonaws.com/files.ably.io/newsletter/ChannelMetadataEmail+-+Dec+'18/ico-facebook.png"
+										   background-color="transparent"></mj-social-element>
+						<!-- social image size: width="88" height="88" -->
+						<mj-social-element name="linkedin"
+										   href="http://link"
+										   src="https://s3.amazonaws.com/files.ably.io/newsletter/ChannelMetadataEmail+-+Dec+'18/ico-linkedin.png"
+										   background-color="transparent"></mj-social-element>
+					</mj-social>
+				</mj-column>
+				<mj-column width="215">
+					<!-- image size: width="240" height="96" -->
+					<mj-image width="120px"
+							  align="left"
+							  alt="ably"
+							  href="http://www.ably.io"
+							  src="https://s3.amazonaws.com/files.ably.io/newsletter/ChannelMetadataEmail+-+Dec+'18/logo-02.png" />
+					<mj-text padding="3px 0 10px 54px"
+							 align="left"
+							 font-size="16px"
+							 line-height="20px"
+							 color="#333">
+						Simply better realtime
+					</mj-text>
+					<mj-text padding="0 0 20px 54px"
+							 align="left"
+							 font-size="14px"
+							 line-height="20px"
+							 color="#50B4F3">
+						<a style="color:#50B4F3; text-decoration:none;" href="http://www.ably.io">www.ably.io</a>
+					</mj-text>
+				</mj-column>
+				<mj-column width="94"></mj-column>
+			</mj-section>
+			<!-- end two columns -->
+			<!-- devider -->
+			<mj-section padding="0 0 23px">
+				<mj-column>
+					<mj-divider border-width="1px" border-style="solid" border-color="#dbdbdb" />
+				</mj-column>
+			</mj-section>
+			<!-- end devider -->
+			<!-- text -->
+			<mj-section css-class="plr-15">
+				<mj-column>
+					<mj-text align="left"
+							 font-size="12px"
+							 line-height="18px"
+							 color="#999">
+						<b>Ably Realtime</b><br/>
+						Atrium Labs, Unit 2.22, Camden Market, NW1 8AB, United Kingdom
+					</mj-text>
+				</mj-column>
+			</mj-section>
+			<!-- end text -->
+		</mj-wrapper>
+		<!-- end footer -->
+	</mj-body>
+</mjml>

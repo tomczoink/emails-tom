@@ -1,0 +1,35 @@
+<mj-section css-class="section-border-top" mj-class="customers-top">
+  <mj-column>
+    <mj-text mj-class="customers-title">
+      Some new customers we’ve welcomed on board
+    </mj-text>
+  </mj-column>
+</mj-section>
+<mj-section css-class="section-border-bottom pt-4 pb-9 plr-20" mj-class="customers-bottom">
+  <mj-column css-class="pb-50" vertical-align="middle">
+    <mj-table>
+      <tr>
+        <td align="center">
+          <img src="https://s3.amazonaws.com/files.ably.io/newsletter/MJML+Newsletter+%5BTemplate%5D/logo-01.png" width="112" style="vertical-align:top;" alt="hubspot" />
+        </td>
+        <td align="center">
+          <img src="https://s3.amazonaws.com/files.ably.io/newsletter/MJML+Newsletter+%5BTemplate%5D/logo-02.png" width="120" style="vertical-align:top;" alt="vitac" />
+        </td>
+      </tr>
+    </mj-table>
+  </mj-column>
+  <mj-column vertical-align="middle">
+    <mj-table>
+      <tr>
+        <td width="12px"></td>
+        <td align="center">
+          <img src="https://s3.amazonaws.com/files.ably.io/newsletter/MJML+Newsletter+%5BTemplate%5D/logo-03.png" width="75" style="vertical-align:top;" alt="verbit" />
+        </td>
+        <td width="32px"></td>
+        <td align="center">
+          <img src="https://s3.amazonaws.com/files.ably.io/newsletter/MJML+Newsletter+%5BTemplate%5D/logo-04.png" width="107" style="vertical-align:top;" alt="Lightspeed system" />
+        </td>
+      </tr>
+    </mj-table>
+  </mj-column>
+</mj-section>

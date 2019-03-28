@@ -1,0 +1,1303 @@
+<!doctype html>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:v="urn:schemas-microsoft-com:vml" xmlns:o="urn:schemas-microsoft-com:office:office">
+
+<head>
+  <title> ably </title>
+  <!--[if !mso]><!-- -->
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <!--<![endif]-->
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <style type="text/css">
+    #outlook a {
+      padding: 0;
+    }
+
+    .ReadMsgBody {
+      width: 100%;
+    }
+
+    .ExternalClass {
+      width: 100%;
+    }
+
+    .ExternalClass * {
+      line-height: 100%;
+    }
+
+    body {
+      margin: 0;
+      padding: 0;
+      -webkit-text-size-adjust: 100%;
+      -ms-text-size-adjust: 100%;
+    }
+
+    table,
+    td {
+      border-collapse: collapse;
+      mso-table-lspace: 0pt;
+      mso-table-rspace: 0pt;
+    }
+
+    img {
+      border: 0;
+      height: auto;
+      line-height: 100%;
+      outline: none;
+      text-decoration: none;
+      -ms-interpolation-mode: bicubic;
+    }
+
+    p {
+      display: block;
+      margin: 13px 0;
+    }
+  </style>
+  <!--[if !mso]><!-->
+  <style type="text/css">
+    @media only screen and (max-width:480px) {
+      @-ms-viewport {
+        width: 320px;
+      }
+
+      @viewport {
+        width: 320px;
+      }
+    }
+  </style>
+  <!--<![endif]-->
+  <!--[if mso]>
+        <xml>
+        <o:OfficeDocumentSettings>
+          <o:AllowPNG/>
+          <o:PixelsPerInch>96</o:PixelsPerInch>
+        </o:OfficeDocumentSettings>
+        </xml>
+        <![endif]-->
+  <!--[if lte mso 11]>
+        <style type="text/css">
+          .outlook-group-fix { width:100% !important; }
+        </style>
+        <![endif]-->
+  <style type="text/css">
+    @media only screen and (min-width:617px) {
+      .mj-column-per-100 {
+        width: 100% !important;
+        max-width: 100%;
+      }
+
+      .mj-column-px-385 {
+        width: 385px !important;
+        max-width: 385px;
+      }
+
+      .mj-column-px-215 {
+        width: 215px !important;
+        max-width: 215px;
+      }
+
+      .mj-column-px-94 {
+        width: 94px !important;
+        max-width: 94px;
+      }
+    }
+  </style>
+  <style type="text/css">
+    @media only screen and (max-width:617px) {
+      table.full-width-mobile {
+        width: 100% !important;
+      }
+
+      td.full-width-mobile {
+        width: auto !important;
+      }
+    }
+  </style>
+  <style type="text/css">
+    @media all and (max-width: 617px) {
+      .fs-32>div {
+        font-size: 32px !important;
+        line-height: 36px !important;
+      }
+
+      .fs-18>div {
+        font-size: 18px !important;
+        line-height: 24px !important;
+      }
+
+      .plr-0>table>tbody>tr>td {
+        padding-left: 0 !important;
+        padding-right: 0 !important;
+      }
+
+      .plr-15>table>tbody>tr>td {
+        padding-left: 15px !important;
+        padding-right: 15px !important;
+      }
+
+      .tplr-0 {
+        padding-left: 0 !important;
+        padding-right: 0 !important;
+      }
+
+      .ta-l {
+        text-align: left !important;
+      }
+
+      .ta-l div {
+        text-align: left !important;
+      }
+    }
+  </style>
+</head>
+
+<body style="background-color:#f8f8f8;">
+  <div style="background-color:#f8f8f8;">
+    <!-- hero -->
+    <!-- bg image size: width="598" height="400" -->
+    <!--[if mso | IE]>
+      <table
+         align="center" border="0" cellpadding="0" cellspacing="0" class="wrapper-hero-outlook" style="width:600px;" width="600"
+      >
+        <tr>
+          <td style="line-height:0px;font-size:0px;mso-line-height-rule:exactly;">
+      
+        <v:rect  style="width:600px;" xmlns:v="urn:schemas-microsoft-com:vml" fill="true" stroke="false">
+        <v:fill  origin="0.5, 0" position="0.5, 0" src="https://s3.amazonaws.com/files.ably.io/newsletter/Christmas+Special+-+Dec+'18/head.jpg" color="#ffffff" type="tile" />
+        <v:textbox style="mso-fit-shape-to-text:true" inset="0,0,0,0">
+      <![endif]-->
+    <div class="wrapper-hero" style="border-radius: 3px 3px 0 0; overflow: hidden;">
+      <div style="line-height:0;font-size:0;">
+        <table align="center" background="https://s3.amazonaws.com/files.ably.io/newsletter/Christmas+Special+-+Dec+'18/head.jpg" border="0" cellpadding="0" cellspacing="0" role="presentation" style="background:#ffffff url(https://s3.amazonaws.com/files.ably.io/newsletter/Christmas+Special+-+Dec+'18/head.jpg) top center / auto no-repeat;width:100%;">
+          <tbody>
+            <tr>
+              <td style="border-left:1px solid #F1F1F1;border-right:1px solid #F1F1F1;border-top:1px solid #F1F1F1;direction:ltr;font-size:0px;padding:0;text-align:center;vertical-align:top;">
+                <!--[if mso | IE]>
+                  <table role="presentation" border="0" cellpadding="0" cellspacing="0">
+                
+            <tr>
+              <td
+                 class="" width="600px"
+              >
+          
+      <table
+         align="center" border="0" cellpadding="0" cellspacing="0" class="" style="width:598px;" width="598"
+      >
+        <tr>
+          <td style="line-height:0px;font-size:0px;mso-line-height-rule:exactly;">
+      <![endif]-->
+                <div style="Margin:0px auto;max-width:598px;">
+                  <table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="width:100%;">
+                    <tbody>
+                      <tr>
+                        <td style="direction:ltr;font-size:0px;padding:0;text-align:center;vertical-align:top;">
+                          <!--[if mso | IE]>
+                  <table role="presentation" border="0" cellpadding="0" cellspacing="0">
+                
+        <tr>
+      
+            <td
+               class="" style="vertical-align:top;width:598px;"
+            >
+          <![endif]-->
+                          <div class="mj-column-per-100 outlook-group-fix" style="font-size:13px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:100%;">
+                            <table border="0" cellpadding="0" cellspacing="0" role="presentation" width="100%">
+                              <tbody>
+                                <tr>
+                                  <td style="vertical-align:top;padding:0;">
+                                    <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="" width="100%">
+                                      <tr>
+                                        <td style="font-size:0px;padding:0;word-break:break-word;">
+                                          <!--[if mso | IE]>
+    
+        <table role="presentation" border="0" cellpadding="0" cellspacing="0"><tr><td height="200" style="vertical-align:top;height:200px;">
+      
+    <![endif]-->
+                                          <div style="height:200px;"> &nbsp; </div>
+                                          <!--[if mso | IE]>
+    
+        </td></tr></table>
+      
+    <![endif]-->
+                                        </td>
+                                      </tr>
+                                    </table>
+                                  </td>
+                                </tr>
+                              </tbody>
+                            </table>
+                          </div>
+                          <!--[if mso | IE]>
+            </td>
+          
+        </tr>
+      
+                  </table>
+                <![endif]-->
+                        </td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+                <!--[if mso | IE]>
+          </td>
+        </tr>
+      </table>
+      
+              </td>
+            </tr>
+          
+            <tr>
+              <td
+                 class="plr-15-outlook" width="600px"
+              >
+          
+      <table
+         align="center" border="0" cellpadding="0" cellspacing="0" class="plr-15-outlook" style="width:598px;" width="598"
+      >
+        <tr>
+          <td style="line-height:0px;font-size:0px;mso-line-height-rule:exactly;">
+      <![endif]-->
+                <div class="plr-15" style="Margin:0px auto;max-width:598px;">
+                  <table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="width:100%;">
+                    <tbody>
+                      <tr>
+                        <td style="direction:ltr;font-size:0px;padding:0 30px;text-align:center;vertical-align:top;">
+                          <!--[if mso | IE]>
+                  <table role="presentation" border="0" cellpadding="0" cellspacing="0">
+                
+        <tr>
+      
+            <td
+               class="plr-15-outlook" style="vertical-align:top;width:538px;"
+            >
+          <![endif]-->
+                          <div class="mj-column-per-100 outlook-group-fix plr-15" style="font-size:13px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:100%;">
+                            <table border="0" cellpadding="0" cellspacing="0" role="presentation" width="100%">
+                              <tbody>
+                                <tr>
+                                  <td style="background-color:#ffffff;border-radius:4px 4px 0 0;vertical-align:top;padding:30px 30px 0;">
+                                    <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="" width="100%">
+                                      <tr>
+                                        <td align="center" class="fs-32" style="font-size:0px;padding:0;word-break:break-word;">
+                                          <div style="font-family:Arial, Helvetica, sans-serif;font-size:48px;font-weight:bold;line-height:53px;text-align:center;color:#333333;"> Announcing the Open Data Streaming Program </div>
+                                        </td>
+                                      </tr>
+                                    </table>
+                                  </td>
+                                </tr>
+                              </tbody>
+                            </table>
+                          </div>
+                          <!--[if mso | IE]>
+            </td>
+          
+        </tr>
+      
+                  </table>
+                <![endif]-->
+                        </td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+                <!--[if mso | IE]>
+          </td>
+        </tr>
+      </table>
+      
+              </td>
+            </tr>
+          
+                  </table>
+                <![endif]-->
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+    <!--[if mso | IE]>
+        </v:textbox>
+      </v:rect>
+    
+          </td>
+        </tr>
+      </table>
+      <![endif]-->
+    <!-- end hero -->
+    <!-- content -->
+    <!--[if mso | IE]>
+      <table
+         align="center" border="0" cellpadding="0" cellspacing="0" class="wrapper-content-outlook" style="width:600px;" width="600"
+      >
+        <tr>
+          <td style="line-height:0px;font-size:0px;mso-line-height-rule:exactly;">
+      <![endif]-->
+    <div class="wrapper-content" style="border-radius: 0 0 4px 4px; overflow: hidden; background: #ffffff; background-color: #ffffff; Margin: 0px auto; max-width: 600px;">
+      <table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="background:#ffffff;background-color:#ffffff;width:100%;">
+        <tbody>
+          <tr>
+            <td style="border-bottom:1px solid #F1F1F1;border-left:1px solid #F1F1F1;border-right:1px solid #F1F1F1;direction:ltr;font-size:0px;padding:0;text-align:center;vertical-align:top;">
+              <!--[if mso | IE]>
+                  <table role="presentation" border="0" cellpadding="0" cellspacing="0">
+                <![endif]-->
+              <!-- section -->
+              <!--[if mso | IE]>
+            <tr>
+              <td
+                 class="plr-15-outlook" width="600px"
+              >
+          
+      <table
+         align="center" border="0" cellpadding="0" cellspacing="0" class="plr-15-outlook" style="width:598px;" width="598"
+      >
+        <tr>
+          <td style="line-height:0px;font-size:0px;mso-line-height-rule:exactly;">
+      <![endif]-->
+              <div class="plr-15" style="Margin:0px auto;max-width:598px;">
+                <table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="width:100%;">
+                  <tbody>
+                    <tr>
+                      <td style="direction:ltr;font-size:0px;padding:0 30px;text-align:center;vertical-align:top;">
+                        <!--[if mso | IE]>
+                  <table role="presentation" border="0" cellpadding="0" cellspacing="0">
+                
+        <tr>
+      
+            <td
+               class="" style="vertical-align:top;width:538px;"
+            >
+          <![endif]-->
+                        <div class="mj-column-per-100 outlook-group-fix" style="font-size:13px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:100%;">
+                          <table border="0" cellpadding="0" cellspacing="0" role="presentation" width="100%">
+                            <tbody>
+                              <tr>
+                                <td style="vertical-align:top;padding:0;">
+                                  <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="" width="100%">
+                                    <tr>
+                                      <td align="center" class="tplr-0 fs-18" style="font-size:0px;padding:30px 30px 38px;word-break:break-word;">
+                                        <div style="font-family:Arial, Helvetica, sans-serif;font-size:24px;line-height:30px;text-align:center;color:#ED760A;"> We're giving back to the community and enabling data producers to distribute open streaming data for free on Ably’s Data Stream Exchange (DSX) platform </div>
+                                      </td>
+                                    </tr>
+                                    <tr>
+                                      <td align="center" vertical-align="middle" class="btn-01" style="font-size:0px;padding:0 0 38px;word-break:break-word;">
+                                        <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="border-collapse:separate;width:280px;line-height:100%;">
+                                          <tr>
+                                            <td align="center" bgcolor="#50B4F3" role="presentation" style="overflow: hidden; mso-padding-alt: 13px 15px 14px; border: none; border-radius: 2px; cursor: auto; padding: 0; background: #50B4F3;" valign="middle">
+                                              <a href="https://blog.ably.io/announcing-ablys-open-data-streaming-program-817da3c1c4d1" style="display: block; padding: 13px 15px 14px; background: #50B4F3; color: #ffffff; font-family: Arial, Helvetica, sans-serif; font-size: 14px; font-weight: bold; line-height: 16px; Margin: 0; text-decoration: none; text-transform: none;" target="_blank"> Read our blog announcement </a>
+                                            </td>
+                                          </tr>
+                                        </table>
+                                      </td>
+                                    </tr>
+                                    <tr>
+                                      <td align="left" style="font-size:0px;padding:0 0 30px;word-break:break-word;">
+                                        <div style="font-family:Arial, Helvetica, sans-serif;font-size:14px;letter-spacing:-0.2px;line-height:20px;text-align:left;color:#555555;"> The Open Data Streaming Program aims to liberate the many sources of realtime data around the world. Collaboration in the developer community already produces amazing results, and by providing a platform for open streaming data, we hope to unleash even greater levels of innovation and collaboration. </div>
+                                      </td>
+                                    </tr>
+                                    <!-- image size: width="880" height="508" -->
+                                    <tr>
+                                      <td align="center" style="font-size:0px;padding:0 0 30px;word-break:break-word;">
+                                        <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="border-collapse:collapse;border-spacing:0px;">
+                                          <tbody>
+                                            <tr>
+                                              <td style="width:440px;">
+                                                <a href="https://www.ably.io/dsx" target="_blank">
+                                                  <img alt="Data Stream Exchange" height="auto" src="https://s3.amazonaws.com/files.ably.io/newsletter/Christmas+Special+-+Dec+'18/dsx.png" style="border:0;display:block;outline:none;text-decoration:none;height:auto;width:100%;" width="440">
+                                                </a>
+                                              </td>
+                                            </tr>
+                                          </tbody>
+                                        </table>
+                                      </td>
+                                    </tr>
+                                    <tr>
+                                      <td align="left" style="font-size:0px;padding:0 0 0px;word-break:break-word;">
+                                        <div style="font-family:Arial, Helvetica, sans-serif;font-size:14px;letter-spacing:-0.2px;line-height:20px;text-align:left;color:#555555;"> If you produce open streaming data, the Program empowers you to: </div>
+                                      </td>
+                                    </tr>
+                                    <tr>
+                                      <td align="left" style="font-size:0px;padding:0 0 28px;word-break:break-word;">
+                                        <div style="font-family:Arial, Helvetica, sans-serif;font-size:14px;letter-spacing:-0.2px;line-height:20px;text-align:left;color:#555555;">
+                                          <ul>
+                                            <li> Publish your data, without needing to think about infrastructure, protocols, APIs or how many consumers there might be </li>
+                                            <li> Push this realtime data to any number of consumers as soon as it becomes available, using the consumer’s chosen means of delivery </li>
+                                          </ul>
+                                        </div>
+                                      </td>
+                                    </tr>
+                                    <tr>
+                                      <td align="left" style="font-size:0px;padding:0 0 30px;word-break:break-word;">
+                                        <div style="font-family:Arial, Helvetica, sans-serif;font-size:14px;letter-spacing:-0.2px;line-height:20px;text-align:left;color:#555555;"> Do you want to make your open realtime data available freely? Or would you like to use one of the open realtime streams that are available now, including transport, weather, sport and financial data? <a style="color:#50B4F3; text-decoration:none;" href="https://blog.ably.io/announcing-ablys-open-data-streaming-program-817da3c1c4d1">Find out more about the Open Data Streaming Program</a>. </div>
+                                      </td>
+                                    </tr>
+                                  </table>
+                                </td>
+                              </tr>
+                            </tbody>
+                          </table>
+                        </div>
+                        <!--[if mso | IE]>
+            </td>
+          
+        </tr>
+      
+                  </table>
+                <![endif]-->
+                      </td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+              <!--[if mso | IE]>
+          </td>
+        </tr>
+      </table>
+      
+              </td>
+            </tr>
+          <![endif]-->
+              <!-- end section -->
+              <!--[if mso | IE]>
+                  </table>
+                <![endif]-->
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <!--[if mso | IE]>
+          </td>
+        </tr>
+      </table>
+      <![endif]-->
+    <!-- end content -->
+    <!-- spacer -->
+    <!--[if mso | IE]>
+      <table
+         align="center" border="0" cellpadding="0" cellspacing="0" class="" style="width:600px;" width="600"
+      >
+        <tr>
+          <td style="line-height:0px;font-size:0px;mso-line-height-rule:exactly;">
+      <![endif]-->
+    <div style="Margin:0px auto;max-width:600px;">
+      <table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="width:100%;">
+        <tbody>
+          <tr>
+            <td style="direction:ltr;font-size:0px;padding:0;text-align:center;vertical-align:top;">
+              <!--[if mso | IE]>
+                  <table role="presentation" border="0" cellpadding="0" cellspacing="0">
+                
+        <tr>
+      
+            <td
+               class="" style="vertical-align:top;width:600px;"
+            >
+          <![endif]-->
+              <div class="mj-column-per-100 outlook-group-fix" style="font-size:13px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:100%;">
+                <table border="0" cellpadding="0" cellspacing="0" role="presentation" width="100%">
+                  <tbody>
+                    <tr>
+                      <td style="vertical-align:top;padding:0;">
+                        <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="" width="100%">
+                          <tr>
+                            <td style="font-size:0px;padding:0;word-break:break-word;">
+                              <!--[if mso | IE]>
+    
+        <table role="presentation" border="0" cellpadding="0" cellspacing="0"><tr><td height="20" style="vertical-align:top;height:20px;">
+      
+    <![endif]-->
+                              <div style="height:20px;"> &nbsp; </div>
+                              <!--[if mso | IE]>
+    
+        </td></tr></table>
+      
+    <![endif]-->
+                            </td>
+                          </tr>
+                        </table>
+                      </td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+              <!--[if mso | IE]>
+            </td>
+          
+        </tr>
+      
+                  </table>
+                <![endif]-->
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <!--[if mso | IE]>
+          </td>
+        </tr>
+      </table>
+      <![endif]-->
+    <!-- end spacer -->
+    <!-- content -->
+    <!--[if mso | IE]>
+      <table
+         align="center" border="0" cellpadding="0" cellspacing="0" class="wrapper-content-outlook" style="width:600px;" width="600"
+      >
+        <tr>
+          <td style="line-height:0px;font-size:0px;mso-line-height-rule:exactly;">
+      <![endif]-->
+    <div class="wrapper-content" style="border-radius: 0 0 4px 4px; overflow: hidden; background: #ffffff; background-color: #ffffff; Margin: 0px auto; max-width: 600px;">
+      <table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="background:#ffffff;background-color:#ffffff;width:100%;">
+        <tbody>
+          <tr>
+            <td style="border-bottom:1px solid #F1F1F1;border-left:1px solid #F1F1F1;border-right:1px solid #F1F1F1;direction:ltr;font-size:0px;padding:0;text-align:center;vertical-align:top;">
+              <!--[if mso | IE]>
+                  <table role="presentation" border="0" cellpadding="0" cellspacing="0">
+                <![endif]-->
+              <!-- section -->
+              <!-- section -->
+              <!--[if mso | IE]>
+            <tr>
+              <td
+                 class="plr-15-outlook" width="600px"
+              >
+          
+      <table
+         align="center" border="0" cellpadding="0" cellspacing="0" class="plr-15-outlook" style="width:598px;" width="598"
+      >
+        <tr>
+          <td style="line-height:0px;font-size:0px;mso-line-height-rule:exactly;">
+      <![endif]-->
+              <div class="plr-15" style="Margin:0px auto;max-width:598px;">
+                <table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="width:100%;">
+                  <tbody>
+                    <tr>
+                      <td style="direction:ltr;font-size:0px;padding:0 30px;text-align:center;vertical-align:top;">
+                        <!--[if mso | IE]>
+                  <table role="presentation" border="0" cellpadding="0" cellspacing="0">
+                
+        <tr>
+      
+            <td
+               class="" style="vertical-align:top;width:538px;"
+            >
+          <![endif]-->
+                        <div class="mj-column-per-100 outlook-group-fix" style="font-size:13px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:100%;">
+                          <table border="0" cellpadding="0" cellspacing="0" role="presentation" width="100%">
+                            <tbody>
+                              <tr>
+                                <td style="vertical-align:top;padding:0;">
+                                  <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="" width="100%">
+                                    <tr>
+                                      <td align="center" style="font-size:0px;padding:28px 0 28px;word-break:break-word;">
+                                        <div style="font-family:Arial, Helvetica, sans-serif;font-size:24px;font-weight:bold;line-height:30px;text-align:center;color:#333333;"> The Ably Hub: The home of open streaming data </div>
+                                      </td>
+                                    </tr>
+                                    <!-- image size: width="800" height="320" -->
+                                    <tr>
+                                      <td align="center" style="font-size:0px;padding:0 0 32px;word-break:break-word;">
+                                        <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="border-collapse:collapse;border-spacing:0px;">
+                                          <tbody>
+                                            <tr>
+                                              <td style="width:400px;">
+                                                <a href="https://www.ably.io/hub" target="_blank">
+                                                  <img height="auto" src="https://s3.amazonaws.com/files.ably.io/newsletter/Christmas+Special+-+Dec+'18/AblyHubEmail.png" style="border:0;display:block;outline:none;text-decoration:none;height:auto;width:100%;" width="400">
+                                                </a>
+                                              </td>
+                                            </tr>
+                                          </tbody>
+                                        </table>
+                                      </td>
+                                    </tr>
+                                    <tr>
+                                      <td align="left" style="font-size:0px;padding:0 0 28px;word-break:break-word;">
+                                        <div style="font-family:Arial, Helvetica, sans-serif;font-size:14px;letter-spacing:-0.2px;line-height:20px;text-align:left;color:#555555;"> The Ably Hub is our app-store-like portal for realtime data streams. It makes it easy for developers and other data consumers to find realtime data and build innovative applications around it. All data hosted with Ably via the Open Data Streaming Program will be available for free via The Ably Hub, alongside other commercial datasets. </div>
+                                      </td>
+                                    </tr>
+                                    <tr>
+                                      <td align="left" style="font-size:0px;padding:0 0 0px;word-break:break-word;">
+                                        <div style="font-family:Arial, Helvetica, sans-serif;font-size:14px;letter-spacing:-0.2px;line-height:20px;text-align:left;color:#555555;"> There’s already a broad range of streaming data available on the <a style="color:#50B4F3; text-decoration:none;" href="https://www.ably.io/hub">Ably Hub</a>, including: </div>
+                                      </td>
+                                    </tr>
+                                    <tr>
+                                      <td align="left" style="font-size:0px;padding:0 0 28px;word-break:break-word;">
+                                        <div style="font-family:Arial, Helvetica, sans-serif;font-size:14px;letter-spacing:-0.2px;line-height:20px;text-align:left;color:#555555;">
+                                          <ul>
+                                            <li> London transport information from Transport for London </li>
+                                            <li> Betting stats from public sports betting markets, and a range of other sports data </li>
+                                            <li> Predictions from PredictIt </li>
+                                            <li> News articles from HackerNews and Reddit </li>
+                                            <li> Bitcoin price and information from Coinbase and BitFlyer </li>
+                                            <li> Financial information from IEX Trading </li>
+                                            <li> Weather data from Open Weather Map </li>
+                                          </ul> And we're adding new sources all the time. Please <a style="color:#50B4F3; text-decoration:none;" href="https://www.ably.io/contact">get in touch if you want to suggest a new source</a>.
+                                        </div>
+                                      </td>
+                                    </tr>
+                                    <tr>
+                                      <td align="center" vertical-align="middle" class="btn-01" style="font-size:0px;padding:0 0 40px;word-break:break-word;">
+                                        <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="border-collapse:separate;width:245px;line-height:100%;">
+                                          <tr>
+                                            <td align="center" bgcolor="#50B4F3" role="presentation" style="overflow: hidden; mso-padding-alt: 13px 15px 14px; border: none; border-radius: 2px; cursor: auto; padding: 0; background: #50B4F3;" valign="middle">
+                                              <a href="https://www.ably.io/hub" style="display: block; padding: 13px 15px 14px; background: #50B4F3; color: #ffffff; font-family: Arial, Helvetica, sans-serif; font-size: 14px; font-weight: bold; line-height: 16px; Margin: 0; text-decoration: none; text-transform: none;" target="_blank"> Explore the Ably Hub </a>
+                                            </td>
+                                          </tr>
+                                        </table>
+                                      </td>
+                                    </tr>
+                                  </table>
+                                </td>
+                              </tr>
+                            </tbody>
+                          </table>
+                        </div>
+                        <!--[if mso | IE]>
+            </td>
+          
+        </tr>
+      
+                  </table>
+                <![endif]-->
+                      </td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+              <!--[if mso | IE]>
+          </td>
+        </tr>
+      </table>
+      
+              </td>
+            </tr>
+          <![endif]-->
+              <!-- end section -->
+              <!--[if mso | IE]>
+                  </table>
+                <![endif]-->
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <!--[if mso | IE]>
+          </td>
+        </tr>
+      </table>
+      
+      <table
+         align="center" border="0" cellpadding="0" cellspacing="0" class="" style="width:600px;" width="600"
+      >
+        <tr>
+          <td style="line-height:0px;font-size:0px;mso-line-height-rule:exactly;">
+      <![endif]-->
+    <div style="Margin:0px auto;max-width:600px;">
+      <table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="width:100%;">
+        <tbody>
+          <tr>
+            <td style="direction:ltr;font-size:0px;padding:0;text-align:center;vertical-align:top;">
+              <!--[if mso | IE]>
+                  <table role="presentation" border="0" cellpadding="0" cellspacing="0">
+                
+        <tr>
+      
+            <td
+               class="" style="vertical-align:top;width:600px;"
+            >
+          <![endif]-->
+              <div class="mj-column-per-100 outlook-group-fix" style="font-size:13px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:100%;">
+                <table border="0" cellpadding="0" cellspacing="0" role="presentation" width="100%">
+                  <tbody>
+                    <tr>
+                      <td style="vertical-align:top;padding:0;">
+                        <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="" width="100%">
+                          <tr>
+                            <td style="font-size:0px;padding:0;word-break:break-word;">
+                              <!--[if mso | IE]>
+    
+        <table role="presentation" border="0" cellpadding="0" cellspacing="0"><tr><td height="20" style="vertical-align:top;height:20px;">
+      
+    <![endif]-->
+                              <div style="height:20px;"> &nbsp; </div>
+                              <!--[if mso | IE]>
+    
+        </td></tr></table>
+      
+    <![endif]-->
+                            </td>
+                          </tr>
+                        </table>
+                      </td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+              <!--[if mso | IE]>
+            </td>
+          
+        </tr>
+      
+                  </table>
+                <![endif]-->
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <!--[if mso | IE]>
+          </td>
+        </tr>
+      </table>
+      <![endif]-->
+    <!-- gray section -->
+    <!--[if mso | IE]>
+      <table
+         align="center" border="0" cellpadding="0" cellspacing="0" class="plr-15-outlook" style="width:600px;" width="600"
+      >
+        <tr>
+          <td style="line-height:0px;font-size:0px;mso-line-height-rule:exactly;">
+      <![endif]-->
+    <div class="plr-15" style="background:#ebebeb;background-color:#ebebeb;Margin:0px auto;border-radius:4px;max-width:600px;">
+      <table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="background:#ebebeb;background-color:#ebebeb;width:100%;border-radius:4px;">
+        <tbody>
+          <tr>
+            <td style="direction:ltr;font-size:0px;padding:32px 30px 28px;text-align:center;vertical-align:top;">
+              <!--[if mso | IE]>
+                  <table role="presentation" border="0" cellpadding="0" cellspacing="0">
+                
+        <tr>
+      
+            <td
+               class="" style="vertical-align:top;width:540px;"
+            >
+          <![endif]-->
+              <div class="mj-column-per-100 outlook-group-fix" style="font-size:13px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:100%;">
+                <table border="0" cellpadding="0" cellspacing="0" role="presentation" width="100%">
+                  <tbody>
+                    <tr>
+                      <td style="vertical-align:top;padding:0;">
+                        <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="" width="100%">
+                          <tr>
+                            <td align="center" style="font-size:0px;padding:0 0 5px;word-break:break-word;">
+                              <div style="font-family:Arial, Helvetica, sans-serif;font-size:14px;font-weight:bold;line-height:20px;text-align:center;color:#555555;"> Coming soon! </div>
+                            </td>
+                          </tr>
+                          <tr>
+                            <td align="center" style="font-size:0px;padding:0;word-break:break-word;">
+                              <div style="font-family:Arial, Helvetica, sans-serif;font-size:14px;line-height:20px;text-align:center;color:#555555;"> Next month, we're launching the <a style="color:#50B4F3; text-decoration:none;" href="https://www.ably.io/dsx">Data Stream Exchange</a>, and will also be releasing version 1.1 of all our client library SDKs. </div>
+                            </td>
+                          </tr>
+                        </table>
+                      </td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+              <!--[if mso | IE]>
+            </td>
+          
+        </tr>
+      
+                  </table>
+                <![endif]-->
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <!--[if mso | IE]>
+          </td>
+        </tr>
+      </table>
+      <![endif]-->
+    <!-- end gray section -->
+    <!-- spacer -->
+    <!--[if mso | IE]>
+      <table
+         align="center" border="0" cellpadding="0" cellspacing="0" class="" style="width:600px;" width="600"
+      >
+        <tr>
+          <td style="line-height:0px;font-size:0px;mso-line-height-rule:exactly;">
+      <![endif]-->
+    <div style="Margin:0px auto;max-width:600px;">
+      <table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="width:100%;">
+        <tbody>
+          <tr>
+            <td style="direction:ltr;font-size:0px;padding:0;text-align:center;vertical-align:top;">
+              <!--[if mso | IE]>
+                  <table role="presentation" border="0" cellpadding="0" cellspacing="0">
+                
+        <tr>
+      
+            <td
+               class="" style="vertical-align:top;width:600px;"
+            >
+          <![endif]-->
+              <div class="mj-column-per-100 outlook-group-fix" style="font-size:13px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:100%;">
+                <table border="0" cellpadding="0" cellspacing="0" role="presentation" width="100%">
+                  <tbody>
+                    <tr>
+                      <td style="vertical-align:top;padding:0;">
+                        <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="" width="100%">
+                          <tr>
+                            <td style="font-size:0px;padding:0;word-break:break-word;">
+                              <!--[if mso | IE]>
+    
+        <table role="presentation" border="0" cellpadding="0" cellspacing="0"><tr><td height="100" style="vertical-align:top;height:100px;">
+      
+    <![endif]-->
+                              <div style="height:100px;"> &nbsp; </div>
+                              <!--[if mso | IE]>
+    
+        </td></tr></table>
+      
+    <![endif]-->
+                            </td>
+                          </tr>
+                        </table>
+                      </td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+              <!--[if mso | IE]>
+            </td>
+          
+        </tr>
+      
+                  </table>
+                <![endif]-->
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <!--[if mso | IE]>
+          </td>
+        </tr>
+      </table>
+      <![endif]-->
+    <!-- end spacer -->
+    <!-- footer -->
+    <table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="background:#f1f1f1;background-color:#f1f1f1;width:100%;">
+      <tbody>
+        <tr>
+          <td>
+            <!--[if mso | IE]>
+      <table
+         align="center" border="0" cellpadding="0" cellspacing="0" class="" style="width:600px;" width="600"
+      >
+        <tr>
+          <td style="line-height:0px;font-size:0px;mso-line-height-rule:exactly;">
+      <![endif]-->
+            <div style="Margin:0px auto;max-width:600px;">
+              <table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="width:100%;">
+                <tbody>
+                  <tr>
+                    <td style="direction:ltr;font-size:0px;padding:60px 0;text-align:center;vertical-align:top;">
+                      <!--[if mso | IE]>
+                  <table role="presentation" border="0" cellpadding="0" cellspacing="0">
+                <![endif]-->
+                      <!-- two columns -->
+                      <!--[if mso | IE]>
+            <tr>
+              <td
+                 class="plr-15-outlook" width="600px"
+              >
+          
+      <table
+         align="center" border="0" cellpadding="0" cellspacing="0" class="plr-15-outlook" style="width:600px;" width="600"
+      >
+        <tr>
+          <td style="line-height:0px;font-size:0px;mso-line-height-rule:exactly;">
+      <![endif]-->
+                      <div class="plr-15" style="Margin:0px auto;max-width:600px;">
+                        <table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="width:100%;">
+                          <tbody>
+                            <tr>
+                              <td style="direction:ltr;font-size:0px;padding:0 0 10px;text-align:center;vertical-align:top;">
+                                <!--[if mso | IE]>
+                  <table role="presentation" border="0" cellpadding="0" cellspacing="0">
+                
+        <tr>
+      
+            <td
+               class="" style="vertical-align:top;width:385px;"
+            >
+          <![endif]-->
+                                <div class="mj-column-px-385 outlook-group-fix" style="font-size:13px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:100%;">
+                                  <table border="0" cellpadding="0" cellspacing="0" role="presentation" width="100%">
+                                    <tbody>
+                                      <tr>
+                                        <td style="vertical-align:top;padding:0;">
+                                          <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="" width="100%">
+                                            <tr>
+                                              <td align="left" style="font-size:0px;padding:0 0 15px;word-break:break-word;">
+                                                <div style="font-family:Arial, Helvetica, sans-serif;font-size:14px;line-height:20px;text-align:left;color:#50B4F3;">
+                                                  <a style="color:#50B4F3; text-decoration:none;" href="<%asm_group_unsubscribe_raw_url%>">Unsubscribe from our product updates</a>
+                                                </div>
+                                              </td>
+                                            </tr>
+                                            <tr>
+                                              <td align="left" style="font-size:0px;padding:0 0 20px;word-break:break-word;">
+                                                <div style="font-family:Arial, Helvetica, sans-serif;font-size:14px;font-weight:bold;line-height:20px;text-align:left;color:#333333;"> Follow us </div>
+                                              </td>
+                                            </tr>
+                                            <!-- social -->
+                                            <tr>
+                                              <td align="left" style="font-size:0px;padding:0 0 30px;word-break:break-word;">
+                                                <!--[if mso | IE]>
+      <table
+         align="left" border="0" cellpadding="0" cellspacing="0" role="presentation"
+      >
+        <tr>
+      
+              <td>
+            <![endif]-->
+                                                <table align="left" border="0" cellpadding="0" cellspacing="0" role="presentation" style="float:none;display:inline-table;">
+                                                  <!-- social image size: width="88" height="88" -->
+                                                </table>
+                                                <!--[if mso | IE]>
+              </td>
+            
+              <td>
+            <![endif]-->
+                                                <table align="left" border="0" cellpadding="0" cellspacing="0" role="presentation" style="float:none;display:inline-table;">
+                                                  <tr>
+                                                    <td style="padding:0 15px 0 0;">
+                                                      <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="background:transparent;border-radius:3px;width:44px;">
+                                                        <tr>
+                                                          <td style="font-size:0;height:44px;vertical-align:middle;width:44px;">
+                                                            <a href="https://twitter.com/home?status=https://twitter.com/ablyrealtime" target="_blank">
+                                                              <img height="44" src="https://s3.amazonaws.com/files.ably.io/newsletter/ChannelMetadataEmail+-+Dec+'18/ico-twitter.png" style="border-radius:3px;" width="44">
+                                                            </a>
+                                                          </td>
+                                                        </tr>
+                                                      </table>
+                                                    </td>
+                                                  </tr>
+                                                </table>
+                                                <!--[if mso | IE]>
+              </td>
+            
+              <td>
+            <![endif]-->
+                                                <table align="left" border="0" cellpadding="0" cellspacing="0" role="presentation" style="float:none;display:inline-table;">
+                                                  <!-- social image size: width="88" height="88" -->
+                                                </table>
+                                                <!--[if mso | IE]>
+              </td>
+            
+              <td>
+            <![endif]-->
+                                                <table align="left" border="0" cellpadding="0" cellspacing="0" role="presentation" style="float:none;display:inline-table;">
+                                                  <tr>
+                                                    <td style="padding:0 15px 0 0;">
+                                                      <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="background:transparent;border-radius:3px;width:44px;">
+                                                        <tr>
+                                                          <td style="font-size:0;height:44px;vertical-align:middle;width:44px;">
+                                                            <a href="https://www.facebook.com/sharer/sharer.php?u=https://www.facebook.com/ablyrealtime/" target="_blank">
+                                                              <img height="44" src="https://s3.amazonaws.com/files.ably.io/newsletter/ChannelMetadataEmail+-+Dec+'18/ico-facebook.png" style="border-radius:3px;" width="44">
+                                                            </a>
+                                                          </td>
+                                                        </tr>
+                                                      </table>
+                                                    </td>
+                                                  </tr>
+                                                </table>
+                                                <!--[if mso | IE]>
+              </td>
+            
+              <td>
+            <![endif]-->
+                                                <table align="left" border="0" cellpadding="0" cellspacing="0" role="presentation" style="float:none;display:inline-table;">
+                                                  <!-- social image size: width="88" height="88" -->
+                                                </table>
+                                                <!--[if mso | IE]>
+              </td>
+            
+              <td>
+            <![endif]-->
+                                                <table align="left" border="0" cellpadding="0" cellspacing="0" role="presentation" style="float:none;display:inline-table;">
+                                                  <tr>
+                                                    <td style="padding:0 15px 0 0;">
+                                                      <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="background:transparent;border-radius:3px;width:44px;">
+                                                        <tr>
+                                                          <td style="font-size:0;height:44px;vertical-align:middle;width:44px;">
+                                                            <a href="https://www.linkedin.com/shareArticle?mini=true&url=https://www.linkedin.com/company/ably---real-time-messaging/&title=&summary=&source=" target="_blank">
+                                                              <img height="44" src="https://s3.amazonaws.com/files.ably.io/newsletter/ChannelMetadataEmail+-+Dec+'18/ico-linkedin.png" style="border-radius:3px;" width="44">
+                                                            </a>
+                                                          </td>
+                                                        </tr>
+                                                      </table>
+                                                    </td>
+                                                  </tr>
+                                                </table>
+                                                <!--[if mso | IE]>
+              </td>
+            
+          </tr>
+        </table>
+      <![endif]-->
+                                              </td>
+                                            </tr>
+                                          </table>
+                                        </td>
+                                      </tr>
+                                    </tbody>
+                                  </table>
+                                </div>
+                                <!--[if mso | IE]>
+            </td>
+          
+            <td
+               class="" style="vertical-align:top;width:215px;"
+            >
+          <![endif]-->
+                                <div class="mj-column-px-215 outlook-group-fix" style="font-size:13px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:100%;">
+                                  <table border="0" cellpadding="0" cellspacing="0" role="presentation" width="100%">
+                                    <tbody>
+                                      <tr>
+                                        <td style="vertical-align:top;padding:0;">
+                                          <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="" width="100%">
+                                            <!-- image size: width="240" height="96" -->
+                                            <tr>
+                                              <td align="left" style="font-size:0px;padding:0;word-break:break-word;">
+                                                <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="border-collapse:collapse;border-spacing:0px;">
+                                                  <tbody>
+                                                    <tr>
+                                                      <td style="width:120px;">
+                                                        <a href="http://www.ably.io" target="_blank">
+                                                          <img alt="ably" height="auto" src="https://s3.amazonaws.com/files.ably.io/newsletter/ChannelMetadataEmail+-+Dec+'18/logo-02.png" style="border:0;display:block;outline:none;text-decoration:none;height:auto;width:100%;" width="120">
+                                                        </a>
+                                                      </td>
+                                                    </tr>
+                                                  </tbody>
+                                                </table>
+                                              </td>
+                                            </tr>
+                                            <tr>
+                                              <td align="left" style="font-size:0px;padding:3px 0 10px 54px;word-break:break-word;">
+                                                <div style="font-family:Arial, Helvetica, sans-serif;font-size:16px;line-height:20px;text-align:left;color:#333333;"> Simply better realtime </div>
+                                              </td>
+                                            </tr>
+                                            <tr>
+                                              <td align="left" style="font-size:0px;padding:0 0 20px 54px;word-break:break-word;">
+                                                <div style="font-family:Arial, Helvetica, sans-serif;font-size:14px;line-height:20px;text-align:left;color:#50B4F3;">
+                                                  <a style="color:#50B4F3; text-decoration:none;" href="http://www.ably.io">www.ably.io</a>
+                                                </div>
+                                              </td>
+                                            </tr>
+                                          </table>
+                                        </td>
+                                      </tr>
+                                    </tbody>
+                                  </table>
+                                </div>
+                                <!--[if mso | IE]>
+            </td>
+          
+            <td
+               class="" style="vertical-align:top;width:94px;"
+            >
+          <![endif]-->
+                                <div class="mj-column-px-94 outlook-group-fix" style="font-size:13px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:100%;">
+                                  <table border="0" cellpadding="0" cellspacing="0" role="presentation" width="100%">
+                                    <tbody>
+                                      <tr>
+                                        <td style="vertical-align:top;padding:0;">
+                                          <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="" width="100%">
+                                          </table>
+                                        </td>
+                                      </tr>
+                                    </tbody>
+                                  </table>
+                                </div>
+                                <!--[if mso | IE]>
+            </td>
+          
+        </tr>
+      
+                  </table>
+                <![endif]-->
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                      <!--[if mso | IE]>
+          </td>
+        </tr>
+      </table>
+      
+              </td>
+            </tr>
+          <![endif]-->
+                      <!-- end two columns -->
+                      <!-- devider -->
+                      <!--[if mso | IE]>
+            <tr>
+              <td
+                 class="" width="600px"
+              >
+          
+      <table
+         align="center" border="0" cellpadding="0" cellspacing="0" class="" style="width:600px;" width="600"
+      >
+        <tr>
+          <td style="line-height:0px;font-size:0px;mso-line-height-rule:exactly;">
+      <![endif]-->
+                      <div style="Margin:0px auto;max-width:600px;">
+                        <table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="width:100%;">
+                          <tbody>
+                            <tr>
+                              <td style="direction:ltr;font-size:0px;padding:0 0 23px;text-align:center;vertical-align:top;">
+                                <!--[if mso | IE]>
+                  <table role="presentation" border="0" cellpadding="0" cellspacing="0">
+                
+        <tr>
+      
+            <td
+               class="" style="vertical-align:top;width:600px;"
+            >
+          <![endif]-->
+                                <div class="mj-column-per-100 outlook-group-fix" style="font-size:13px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:100%;">
+                                  <table border="0" cellpadding="0" cellspacing="0" role="presentation" width="100%">
+                                    <tbody>
+                                      <tr>
+                                        <td style="vertical-align:top;padding:0;">
+                                          <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="" width="100%">
+                                            <tr>
+                                              <td style="font-size:0px;padding:0;word-break:break-word;">
+                                                <p style="border-top:solid 1px #dbdbdb;font-size:1;margin:0px auto;width:100%;">
+                                                </p>
+                                                <!--[if mso | IE]>
+        <table
+           align="center" border="0" cellpadding="0" cellspacing="0" style="border-top:solid 1px #dbdbdb;font-size:1;margin:0px auto;width:600px;" role="presentation" width="600px"
+        >
+          <tr>
+            <td style="height:0;line-height:0;">
+              &nbsp;
+            </td>
+          </tr>
+        </table>
+      <![endif]-->
+                                              </td>
+                                            </tr>
+                                          </table>
+                                        </td>
+                                      </tr>
+                                    </tbody>
+                                  </table>
+                                </div>
+                                <!--[if mso | IE]>
+            </td>
+          
+        </tr>
+      
+                  </table>
+                <![endif]-->
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                      <!--[if mso | IE]>
+          </td>
+        </tr>
+      </table>
+      
+              </td>
+            </tr>
+          <![endif]-->
+                      <!-- end devider -->
+                      <!-- text -->
+                      <!--[if mso | IE]>
+            <tr>
+              <td
+                 class="plr-15-outlook" width="600px"
+              >
+          
+      <table
+         align="center" border="0" cellpadding="0" cellspacing="0" class="plr-15-outlook" style="width:600px;" width="600"
+      >
+        <tr>
+          <td style="line-height:0px;font-size:0px;mso-line-height-rule:exactly;">
+      <![endif]-->
+                      <div class="plr-15" style="Margin:0px auto;max-width:600px;">
+                        <table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="width:100%;">
+                          <tbody>
+                            <tr>
+                              <td style="direction:ltr;font-size:0px;padding:0;text-align:center;vertical-align:top;">
+                                <!--[if mso | IE]>
+                  <table role="presentation" border="0" cellpadding="0" cellspacing="0">
+                
+        <tr>
+      
+            <td
+               class="" style="vertical-align:top;width:600px;"
+            >
+          <![endif]-->
+                                <div class="mj-column-per-100 outlook-group-fix" style="font-size:13px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:100%;">
+                                  <table border="0" cellpadding="0" cellspacing="0" role="presentation" width="100%">
+                                    <tbody>
+                                      <tr>
+                                        <td style="vertical-align:top;padding:0;">
+                                          <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="" width="100%">
+                                            <tr>
+                                              <td align="left" style="font-size:0px;padding:0;word-break:break-word;">
+                                                <div style="font-family:Arial, Helvetica, sans-serif;font-size:12px;line-height:18px;text-align:left;color:#999999;">
+                                                  <b>Ably Realtime</b><br> Atrium Labs, Unit 2.22, Camden Market, NW1 8AB, United Kingdom </div>
+                                              </td>
+                                            </tr>
+                                          </table>
+                                        </td>
+                                      </tr>
+                                    </tbody>
+                                  </table>
+                                </div>
+                                <!--[if mso | IE]>
+            </td>
+          
+        </tr>
+      
+                  </table>
+                <![endif]-->
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                      <!--[if mso | IE]>
+          </td>
+        </tr>
+      </table>
+      
+              </td>
+            </tr>
+          <![endif]-->
+                      <!-- end text -->
+                      <!--[if mso | IE]>
+                  </table>
+                <![endif]-->
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <!--[if mso | IE]>
+          </td>
+        </tr>
+      </table>
+      <![endif]-->
+          </td>
+        </tr>
+      </tbody>
+    </table>
+    <!-- end footer -->
+  </div>
+</body>
+
+</html>

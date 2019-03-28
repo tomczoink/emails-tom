@@ -1,0 +1,14 @@
+<mj-section>
+  <mj-column mj-class="link-wrapper">
+    <mj-table>
+      <tr>
+        <td width="18" style="font-size:1px; line-height:1px; mso-line-height-rule:at-least;">
+          <img src="https://s3.amazonaws.com/files.ably.io/newsletter/MJML+Newsletter+%5BTemplate%5D/ico-rarr.png" width="9" style="vertical-align:top;" alt="" />
+        </td>
+        <td style="font-size:14px; line-height:16px; color:#50B4F3; vertical-align:middle;">
+          <a style="color:#50B4F3; text-decoration:none;" href="http://link">Visit the blog</a>
+        </td>
+      </tr>
+    </mj-table>
+  </mj-column>
+</mj-section>

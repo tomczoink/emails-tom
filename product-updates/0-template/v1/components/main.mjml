@@ -1,0 +1,15 @@
+<mj-section css-class="plr-15" padding="0 30px">
+  <mj-column>
+    <mj-text mj-class="title-h2" padding="0 0 28px">
+      Header
+    </mj-text>
+    <!-- image size: width="800" height="320" -->
+    <mj-image mj-class="main-img" />
+    <mj-text mj-class="primary-text">
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eros justo, pulvinar ut vulputate quis, mattis at augue. Suspendisse mauris turpis, gravida sodales facilisis et, pharetra ac magna. Ut cursus molestie vehicula. Fusce sed nisl id lectus scelerisque facilisis consectetur eget nisl. Morbi scelerisque felis vel ullamcorper viverra. In id ante quis quam sodales auctor in a ante.
+    </mj-text>
+    <mj-button css-class="primary-btn" mj-class="primary-btn" href="http://link">
+      Call to action
+    </mj-button>
+  </mj-column>
+</mj-section>

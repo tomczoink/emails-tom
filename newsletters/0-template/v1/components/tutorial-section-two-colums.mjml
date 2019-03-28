@@ -1,0 +1,45 @@
+<mj-section>
+  <mj-column css-class="columns-wrapper" mj-class="column-holder">
+    <mj-text mj-class="title-h3" padding="0 0 5px">
+      <a style="color:#50B4F3; text-decoration:none;" href="http://link">Build a Realtime chat app with React Native and Ably</a>
+    </mj-text>
+    <mj-text mj-class="subtitle-autor">
+      By Susie Spader
+    </mj-text>
+    <mj-text mj-class="primary-text">
+      Learn how to create your very own Messaging App which runs on both iOS and Android.
+    </mj-text>
+    <mj-table>
+      <tr>
+        <td width="22" style="font-size:1px; line-height:1px; mso-line-height-rule:at-least;">
+          <img src="https://s3.amazonaws.com/files.ably.io/newsletter/MJML+Newsletter+%5BTemplate%5D/ico-clock.png" width="16" style="vertical-align:top;" alt="" />
+        </td>
+        <td style="font-size:12px; line-height:16px; color:#999; vertical-align:middle;">
+          30 mins (medium)
+        </td>
+      </tr>
+    </mj-table>
+  </mj-column>
+  <mj-column width="10px" padding="0 0 10px"></mj-column>
+  <mj-column css-class="columns-wrapper" mj-class="column-holder">
+    <mj-text mj-class="title-h3" padding="0 0 5px">
+      <a style="color:#50B4F3; text-decoration:none;" href="http://link">Mobile token authentication</a>
+    </mj-text>
+    <mj-text mj-class="subtitle-autor">
+      By Samuel Ogundipe
+    </mj-text>
+    <mj-text mj-class="primary-text">
+      Learn how to issue signed tokens for your users, configure their capabilities (permissions) and authenticate mobile clients using these tokens.
+    </mj-text>
+    <mj-table>
+      <tr>
+        <td width="22" style="font-size:1px; line-height:1px; mso-line-height-rule:at-least;">
+          <img src="https://s3.amazonaws.com/files.ably.io/newsletter/MJML+Newsletter+%5BTemplate%5D/ico-clock.png" width="16" style="vertical-align:top;" alt="" />
+        </td>
+        <td style="font-size:12px; line-height:16px; color:#999; vertical-align:middle;">
+          30 mins (medium)
+        </td>
+      </tr>
+    </mj-table>
+  </mj-column>
+</mj-section>
