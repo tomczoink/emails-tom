@@ -5,8 +5,10 @@ const tools = new Toolkit({
 
 // Run your GitHub Action!
 Toolkit.run(async tools => {
-  console.log(tools.context.payload.pull_request)
-  //const list = await tools.github.pulls.listFiles();
- //console.log(list);
+  //console.log(tools.context.payload.pull_request)
+  let num = tools.context.payload.number;
+
+ const list = await tools.github.pulls.listFiles('tomczoink', 'emails-tom', num);
+ console.log(list);
   tools.exit.success('We did it!')
 })
