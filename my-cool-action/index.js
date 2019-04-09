@@ -8,9 +8,9 @@ Toolkit.run(async tools => {
   //console.log(tools.context.payload.pull_request)
   let num = tools.context.payload.number;
   console.log(tools.context.payload);
-  console.log(tools.context.payload.number);
+  console.log(num);
 
-  //const list = await tools.github.pulls.listFiles('tomczoink', 'emails-tom', num);
-  //console.log(list);
+  const list = await tools.github.pulls.listFiles({'tomczoink', 'emails-tom', num});
+  console.log(list);
   tools.exit.success('We did it!')
 })
