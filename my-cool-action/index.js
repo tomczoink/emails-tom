@@ -7,7 +7,6 @@ const tools = new Toolkit({
 Toolkit.run(async tools => {
   //console.log(tools.context.payload.pull_request)
   let num = tools.context.payload.number;
-  console.log(tools.context.payload.pull_request._links.commits);
 
   const list = await tools.github.pulls.listFiles({'number': '2', 'owner': 'tomczoink', 'repo': 'emails-tom' });
   console.log(list);
