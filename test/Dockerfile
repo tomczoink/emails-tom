@@ -5,6 +5,8 @@ LABEL com.github.actions.icon=check
 
 WORKDIR /github/workspace
 
+COPY . .
+
 RUN npm install
 
 ADD entrypoint.sh /entrypoint.sh
