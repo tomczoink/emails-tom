@@ -24,7 +24,7 @@ if [ ! -f "${MJML_FILE}" ]; then
   exit 1
 fi
 
-ls ../
+ls check
 
 "${DIR}/../node_modules/.bin/mjml" "${MJML_FILE}" -o "${HTML_FILE}"
 
