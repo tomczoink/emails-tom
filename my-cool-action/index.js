@@ -10,7 +10,7 @@ Toolkit.run(async tools => {
   console.log(tools.context.payload);
   console.log(num);
 
-  const list = await tools.github.pulls.listFiles({'tomczoink', 'emails-tom', num});
+  const list = await tools.github.pulls.listFiles({num});
   console.log(list);
   tools.exit.success('We did it!')
 })
