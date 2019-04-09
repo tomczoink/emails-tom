@@ -5,4 +5,4 @@ LABEL com.github.actions.icon=check
 
 RUN npm install
 
-ENTRYPOINT ["sh", "entrypoint.sh"]
+ENTRYPOINT ["sh", "/entrypoint.sh"]
