@@ -1,6 +1,6 @@
 FROM node:8
 
-COPY package.json /github/workspace/
+COPY . /github/workspace/
 WORKDIR /github/workspace
 RUN npm install
 ENV PATH /github/workspace/node_modules/.bin:$PATH
