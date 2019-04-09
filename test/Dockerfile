@@ -5,7 +5,7 @@ LABEL com.github.actions.icon=check
 
 WORKDIR /github/workspace
 
-COPY . .
+COPY . /github/workspace
 
 RUN npm install
 
