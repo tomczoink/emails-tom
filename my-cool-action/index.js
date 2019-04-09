@@ -3,9 +3,9 @@ const tools = new Toolkit({
     event: ['pull_request.opened', 'pull_request.synchronize'],
 });
 
-const list = await tools.github.pulls.listFiles();
-console.log(list);
 // Run your GitHub Action!
 Toolkit.run(async tools => {
+  const list = await tools.github.pulls.listFiles();
+  console.log(list);
   tools.exit.success('We did it!')
 })
