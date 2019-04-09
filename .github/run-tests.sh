@@ -1,3 +1,4 @@
+sudo PATH="$PATH:/usr/local/bin" npm install -g grunt-cli
 apt update
 apt install nodejs npm
 npm install
