@@ -3,13 +3,9 @@ FROM node:8
 # Create app directory
 WORKDIR /github/workspace
 
-RUN ls
-
-COPY package.json ./
+ADD . /github/workspace
 
 RUN npm install
-
-COPY . ./
 
 COPY "entrypoint.sh" "/entrypoint.sh"
 ENTRYPOINT ["sh", "/entrypoint.sh"]
