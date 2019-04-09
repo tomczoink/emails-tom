@@ -1,13 +1,11 @@
-FROM node:8
+FROM node:10
 
 LABEL com.github.actions.color=purple
 LABEL com.github.actions.icon=check
 
-COPY . .
+COPY . /github/workspace
 
 RUN npm install
-
-COPY . .
 
 ADD entrypoint.sh /entrypoint.sh
 
