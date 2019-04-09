@@ -5,7 +5,8 @@ const tools = new Toolkit({
 
 // Run your GitHub Action!
 Toolkit.run(async tools => {
-  const list = await tools.github.pulls.listFiles();
-  console.log(list);
+  console.log(tools)
+  //const list = await tools.github.pulls.listFiles();
+ //console.log(list);
   tools.exit.success('We did it!')
 })
