@@ -22,7 +22,7 @@ LABEL "com.github.actions.color"="purple"
 COPY package*.json ./
 
 # Install dependencies
-RUN npm ci
+RUN npm install
 
 # Copy the rest of your action's code
 COPY . .
