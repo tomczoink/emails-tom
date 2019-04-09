@@ -1,11 +1,12 @@
 FROM node:8
 
-# Create app directory
 WORKDIR /github/workspace
 
-ADD . /github/workspace
-
+COPY package.json /github/workspace/
 RUN npm install
+ENV PATH /github/workspace/node_modules/.bin:$PATH
 
-COPY "entrypoint.sh" "/entrypoint.sh"
+COPY . /github/workspace/app/
+WORKDIR /github/workspace/app/
+
 ENTRYPOINT ["sh", "/entrypoint.sh"]
