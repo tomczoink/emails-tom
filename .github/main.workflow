@@ -5,5 +5,5 @@ workflow "Pull Request" {
 }
 
 action "check" {
-  uses = "./test/"
+  uses = "./my-cool-action/"
 }
