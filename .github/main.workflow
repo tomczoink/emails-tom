@@ -10,5 +10,5 @@ workflow "Pull Request" {
 }
 
 action "check" {
-  uses = "./check/"
+  uses = "./"
 }
