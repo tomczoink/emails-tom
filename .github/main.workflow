@@ -6,4 +6,5 @@ workflow "Pull Request" {
 
 action "check" {
   uses = "./my-cool-action/"
+  secrets = ["GITHUB_TOKEN"]
 }
