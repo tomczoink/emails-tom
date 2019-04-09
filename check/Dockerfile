@@ -3,7 +3,7 @@ FROM node:8
 # Create app directory
 WORKDIR /github/workspace
 
-ls
+RUN ls
 
 COPY package.json ./
 
