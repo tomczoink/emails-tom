@@ -1,6 +1,5 @@
 # Use the latest version of Node.js
 #
-
 # You may prefer the full image:
 # FROM node
 #
