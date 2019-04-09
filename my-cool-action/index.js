@@ -11,5 +11,12 @@ Toolkit.run(async tools => {
 
   const list = await tools.github.pulls.listFiles({'number': '2', 'owner': 'tomczoink', 'repo': 'emails-tom' });
   console.log(list);
-  tools.exit.success('We did it!')
+
+  let files = Object.values(list);
+  let regex = RegExp('.mjml', 'g');
+  for (var i = 0; i < files.length; i++) {
+    console.log(files[i].filename);
+    console.log(regex.test(files[i].filename));
+  }
+
 })
