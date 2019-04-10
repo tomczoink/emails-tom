@@ -9,7 +9,8 @@ Toolkit.run(async tools => {
   let num = tools.context.payload.number;
 
   const list = await tools.github.pulls.listFiles({'number': '2', 'owner': 'tomczoink', 'repo': 'emails-tom' });
-  console.log(JSON.parse(list));
+  console.log("YAS")
+  console.log(list);
   console.log("BAPPO")
 
 
