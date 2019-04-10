@@ -12,13 +12,11 @@ Toolkit.run(async tools => {
   console.log("YAS")
  // console.log(list);
   console.log("BAPPO")
-  let tmp = Object.keys(list.data);
+  let tmp = Object.values(list.data)[0];
 
   console.log(tmp);
 
   console.log("MID")
-
-  console.log(tmp['1'])
 
 
   let files = Object.values(list[0]);
