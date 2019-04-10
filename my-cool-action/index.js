@@ -12,6 +12,9 @@ Toolkit.run(async tools => {
   console.log("YAS")
   console.log(list);
   console.log("BAPPO")
+  let tmp = Object.keys(list)[0];
+
+  console.log(tmp);
 
 
   let files = Object.values(list[0]);
