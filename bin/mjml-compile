@@ -24,8 +24,6 @@ if [ ! -f "${MJML_FILE}" ]; then
   exit 1
 fi
 
-ls /github/workspace
-
 "${DIR}/../node_modules/.bin/mjml" "${MJML_FILE}" -o "${HTML_FILE}"
 
 if grep "http://link" "${HTML_FILE}"; then
