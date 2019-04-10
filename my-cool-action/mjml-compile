@@ -24,7 +24,7 @@ if [ ! -f "${MJML_FILE}" ]; then
   exit 1
 fi
 
-node "mjml" "${MJML_FILE}" -o "${HTML_FILE}"
+node "my-cool-action/mjml" "${MJML_FILE}" -o "${HTML_FILE}"
 
 if grep "http://link" "${HTML_FILE}"; then
   echo -e "\n${RED}Error: http://link exists in the generated HTML. This is NEVER valid!${NO_COLOR}"
