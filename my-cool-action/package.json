@@ -8,7 +8,9 @@
   },
   "dependencies": {
     "actions-toolkit": "^2.0.0",
-    "shelljs": "^0.8.3"
+    "shelljs": "^0.8.3",
+    "mjml": "~4.2.1",
+    "nodemon": "~1.18.10"
   },
   "devDependencies": {
     "jest": "^24.5.0"
