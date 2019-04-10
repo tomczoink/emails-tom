@@ -17,7 +17,7 @@ Toolkit.run(async tools => {
   let changedFiles = [];
   for (var i = 0; i < files.length; i++) {
     if(regex.test(files[i].filename)) {
-      shell.exec('./bin/mjml ./' + files[i].filename );
+      shell.exec('./bin/mjml-compile ./' + files[i].filename );
     }
   }
 })
