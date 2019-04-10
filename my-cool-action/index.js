@@ -10,9 +10,9 @@ Toolkit.run(async tools => {
 
   const list = await tools.github.pulls.listFiles({'number': '2', 'owner': 'tomczoink', 'repo': 'emails-tom' });
   console.log("YAS")
-  console.log(list);
+ // console.log(list);
   console.log("BAPPO")
-  let tmp = Object.keys(list)[0];
+  let tmp = Object.keys(list);
 
   console.log(tmp);
 
