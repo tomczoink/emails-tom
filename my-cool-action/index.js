@@ -12,7 +12,7 @@ Toolkit.run(async tools => {
   console.log("YAS")
  // console.log(list);
   console.log("BAPPO")
-  let tmp = Object.keys(list.data[1]);
+  let tmp = Object.keys(list.data);
 
   console.log(tmp);
 
