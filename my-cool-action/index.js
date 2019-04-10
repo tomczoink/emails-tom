@@ -14,7 +14,7 @@ Toolkit.run(async tools => {
   let files = Object.values(list);
   let regex = RegExp('.mjml', 'g');
   for (var i = 0; i < files.length; i++) {
-    console.log(files[i].filename);
+    console.log(files[i]);
     console.log(regex.test(files[i].filename));
   }
 
