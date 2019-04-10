@@ -13,7 +13,7 @@ Toolkit.run(async tools => {
   const list = await tools.github.pulls.listFiles({'number': '2', 'owner': 'tomczoink', 'repo': 'emails-tom' });
 
   let files = Object.values(list.data);
-  let regex = RegExp('\.mjml', 'g');
+  let regex = RegExp('product-updates/(.*?)\.mjml', 'g');
   let changedFiles = [];
   for (var i = 0; i < files.length; i++) {
     if(regex.test(files[i].filename)) {
