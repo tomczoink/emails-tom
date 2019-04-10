@@ -14,12 +14,9 @@ Toolkit.run(async tools => {
   console.log("BAPPO")
   let tmp = Object.values(list.data)[0];
 
-  console.log(tmp);
-
-  console.log("MID")
 
 
-  let files = Object.values(list[0]);
+  let files = Object.values(list.data);
   let regex = RegExp('.mjml', 'g');
   for (var i = 0; i < files.length; i++) {
     console.log(files[i]);
