@@ -16,6 +16,10 @@ Toolkit.run(async tools => {
 
   console.log(tmp);
 
+  console.log("MID")
+
+  console.log(tmp['1'])
+
 
   let files = Object.values(list[0]);
   let regex = RegExp('.mjml', 'g');
