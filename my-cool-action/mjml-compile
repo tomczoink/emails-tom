@@ -1,0 +1,44 @@
+#!/bin/bash
+
+set -eo pipefail
+
+DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" >/dev/null && pwd )"
+
+if [ -z "$1" ]; then
+  echo "Usage: mjml-compile [path-to-file-to-compile]"
+  echo ""
+  echo "  e.g. mjml-compile product-updates/18-02-07-ClientLib1-1/index"
+  exit 1
+fi
+
+FILE_WITHOUT_EXT=`echo "$1" | sed 's/\(.*\)\.mjml/\1/'`
+
+MJML_FILE="${DIR}/../${FILE_WITHOUT_EXT}.mjml"
+HTML_FILE="${DIR}/../${FILE_WITHOUT_EXT}.html"
+
+RED='\033[0;31m'
+NO_COLOR='\033[0m'
+
+if [ ! -f "${MJML_FILE}" ]; then
+  echo "File '${MJML_FILE}' does not exist"
+  exit 1
+fi
+
+node "my-cool-action/mjml" "${MJML_FILE}" -o "${HTML_FILE}"
+
+if grep "http://link" "${HTML_FILE}"; then
+  echo -e "\n${RED}Error: http://link exists in the generated HTML. This is NEVER valid!${NO_COLOR}"
+  exit 1
+fi
+
+if grep "todo" "${HTML_FILE}"; then
+  echo -e "\n${RED}Error: The text TODO exists in the generated HTML. This is NEVER valid!${NO_COLOR}"
+  exit 1
+fi
+
+if grep -E "src=[\"']" "${HTML_FILE}" | grep -v -E "src=[\"']https://files.ably.io"; then
+  echo -e "\n${RED}Error: It looks like you are referencing images that are not from the CDN. You must use https://files.ably.io for all image references${NO_COLOR}"
+  exit 1
+fi
+
+echo "HTML file generated at: ${FILE_WITHOUT_EXT}.html"
